@@ -23,4 +23,4 @@
     <?php include './parts/footer.php'; ?>
 
 </body>
-</html>  
+</html>   
