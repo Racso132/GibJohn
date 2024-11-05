@@ -1,1 +1,181 @@
- 
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000279;
+}
+
+header {
+    background-color: #1560bd;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    top: 0;
+}
+
+header > h1, header > h2 {
+
+    color: #ffffff;
+    font-size: 15px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h1, h2 {
+
+    color: #000000;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    margin-top: 15px;
+    color: #000000;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(241, 245, 0);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0300a0;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1560bd;
+    color: rgb(0, 0, 0);
+
+    width: 100%;
+    bottom: 0;
+    font-size: 20px;
+}
+
+br {
+    color: #000000;
+    text-align: center;
+    text-decoration: wavy;
+    text-wrap: balance;
+    padding: 10px;
+    margin: 10px; 
+    position: fixed;
+    width: 100%;
+    font-size: 15px;
+}
+
+a:visited {
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+a:hover {
+    color: pink;
+    font-size: small;
+    font-size: 20px;
+
+}
+
+a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+img {
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 20px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+}
+.workout {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: #ccc 1px solid;
+    font-size: 20px;
+}
+.workout h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.jpg {
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
