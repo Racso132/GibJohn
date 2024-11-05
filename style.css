@@ -47,6 +47,8 @@ h1, h2 {
 }
 
 form {
+    position: fixed;
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 50%;
