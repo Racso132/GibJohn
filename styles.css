@@ -141,34 +141,17 @@ img {
     font-size: 20px;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    font-size: 20px;
+.container img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
 }
-header ul {
-    padding: 0;
-    list-style: none;
-    font-size: 20px;
-}
-header li {
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
-    font-size: 20px;
-}
-.workout {
-    background: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border: #ccc 1px solid;
-    font-size: 20px;
-}
-.workout h2 {
-    margin-top: 0;
-    font-size: 20px;
-}
+
+
 
 .jpg {
     width: 10%;
