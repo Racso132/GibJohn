@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #0e4d02;
+    background-color: #34bfc4;
     color: rgb(255, 255, 255);
     padding: 10px 0;
     text-align: center;
@@ -86,7 +86,7 @@ input[type="submit"]:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #0e4d02;
+    background-color: #34bfc4;
     color: rgb(0, 0, 0);
 
     width: 100%;
