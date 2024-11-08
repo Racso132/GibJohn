@@ -162,3 +162,14 @@ img {
     padding: 10px;
     margin: 10px;
 }
+
+.jpg img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
