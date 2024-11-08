@@ -1,7 +1,7 @@
 <header>
     <h1>GIBJOHN</h1>
     <h2>  Online tutoring </h2>
-    <nav>
+    <nav> 
         <a href="index.php">Home</a>
         <a href="about.php">About</a>
         <a href="contact.php">Contact</a>   

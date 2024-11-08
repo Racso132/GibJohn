@@ -6,7 +6,7 @@
     <title>Contact Us - online tutoring</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
     <?php include './parts/header.php'; ?>            
     <section>
         <h2>Contact Us</h2>

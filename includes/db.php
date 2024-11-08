@@ -4,4 +4,4 @@ $db_username = 'root';
 $db_password = '';
 
 $pdo = new PDO($dsn, $db_username, $db_password);
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
