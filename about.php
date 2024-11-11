@@ -27,6 +27,7 @@ session_start()
         <p> there is a variety of subjects and plans to choose from</p>
         <b> we hope you enjoy your learning and revision</b>
         <p><i> idiot proof</i></p>
+        
 
     </section>
     <?php include './parts/footer.php'; ?>
