@@ -21,6 +21,11 @@ session_start()
         <p>Another website that you can go to for more information and revision </p>    <a href=""></a>
         <p>One of the top recomended </p>    <a href=""></a>
         <p>use of css later(personal use only)</p>    <a href="https://www.w3schools.com/css/css3_buttons.asp">css use</a>
+        <p>use of html later(personal use only)</p>    <a href="https://www.w3schools.com/html/html_intro.asp">html use</a>
+        <p>use of php later(personal use only)</p>    <a href="https://www.w3schools.com/php/php_intro.asp">php use</a>
+        <p> there will be many more links to help you with your learning and revision</p>
+        <p> there is a variety of subjects and plans to choose from</p>
+        <b> we hope you enjoy your learning and revision</b>
     </section>
     <?php include './parts/footer.php'; ?>
     
