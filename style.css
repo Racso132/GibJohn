@@ -50,7 +50,7 @@ section {
     border-radius: 5px;
 }
 
-h1, h2 {
+h1 {
 
     color: #000000;
     font-size: 20px;
@@ -224,3 +224,29 @@ b {
     font-size: 20px;
     mask-position: right;
 }
+
+h2 {
+    color: #000000;
+    font-size: 20px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 20px;
+}
+
+h4 {
+    color: #000000;
+    font-size: 20px;
+}
+
+h5 {
+    color: #000000;
+    font-size: 20px;
+}
+
+h6 {
+    color: #000000;
+    font-size: 20px;
+}
+
