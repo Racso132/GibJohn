@@ -3,7 +3,7 @@ session_start();
 
 include './includes/db.php'; 
 
-
+// Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Retrieve the username and password from the POST request
