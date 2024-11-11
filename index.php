@@ -17,6 +17,45 @@
         also you should find some helpful revision plans and subject timetable plans these will help keep your mind working and still give you time to enjoy learning.</br>
         Our company was founded in 2024 and we have been helping people with their learning ever since.</br>
     </section>
+
+    <section>
+        <h3>Our top plans</h3>
+        <p>Our top plans are:</p>
+        <ul>
+            <li>Maths</li>
+            <li>English</li>
+            <li>Science</li>
+            <li>History</li>
+            <li>Geography</li>
+            <li>French</li>
+            <li>Spanish</li>
+            <li>German</li>
+            <li>Italian</li>
+            <li>Chinese</li>
+        </ul>
+        <p>These are our top plans and are the most popular</p>
+    </section>
+    
+    <section>
+        <h3>How to get started</h3>
+        <p>Getting started is easy. Just follow these steps:</p>
+        <ol>
+            <li>Register</li>
+            <li>Choose a plan</li>
+            <li>Start learning</li>
+        </ol>
+    </section>
+    
+    <section>
+        <h3>Why choose us?</h3>
+        <p>There are many reasons to choose us:</p>
+        <ul>
+            <li>Our plans are affordable</li>
+            <li>Our tutors are experts</li>
+            <li>Our plans are flexible</li>
+            <li>Our plans are customisable</li>
+        </ul>
+    </section>
     
     <?php include './parts/footer.php'; ?>
 
