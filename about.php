@@ -33,6 +33,6 @@ session_start()
     <?php include './parts/footer.php'; ?>
     
 
-</body>
+</body> 
 </html> 
   
