@@ -219,14 +219,8 @@ img {
     margin: 10px;
 }
 
-c {
-    color: #000000;
-    font-size: 15px;
-    grid-template-columns: auto;
-}
-
 b {
-    color: #000000;
-    font-size: 15px;
-    grid-template-columns: auto;
+    color: #0300a0;
+    font-size: 20px;
+    mask-position: right;
 }
