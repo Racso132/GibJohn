@@ -25,9 +25,9 @@ session_start()
         <p>use of php later(personal use only)</p>    <a href="https://www.w3schools.com/php/php_intro.asp">php use</a>
         <p> there will be many more links to help you with your learning and revision</p>
         <p> there is a variety of subjects and plans to choose from</p>
-        <b> we hope you enjoy your learning and revision</b>
-        <c> hello world</c>
-        <d> hello world</d>
+        <br> <b> we hope you enjoy your learning and revision</b>
+        <c> hello world</c> </br>
+        <d> hello world</d> </br>
     </section>
     <?php include './parts/footer.php'; ?>
     
