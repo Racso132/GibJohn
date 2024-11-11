@@ -222,11 +222,11 @@ img {
 c {
     color: #000000;
     font-size: 15px;
-    table-layout: auto;
+    grid-template-columns: auto;
 }
 
 b {
     color: #000000;
     font-size: 15px;
-    table-layout: auto;
+    grid-template-columns: auto;
 }
