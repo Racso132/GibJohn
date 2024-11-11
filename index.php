@@ -17,11 +17,6 @@
         also you should find some helpful revision plans and subject timetable plans these will help keep your mind working and still give you time to enjoy learning.</br>
         Our company was founded in 2024 and we have been helping people with their learning ever since.</br>
     </section>
-
-    <section2>
-        <p>Our company is based in the United Kingdom and we have a team of experts who are ready to help you with your learning and subject needs.</p>
-        <p>Another website that you can go to for more information and revision </p>    <a href=""></a> 
-    </section2>
     
     <?php include './parts/footer.php'; ?>
 
