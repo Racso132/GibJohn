@@ -26,6 +26,8 @@ session_start()
         <p> there will be many more links to help you with your learning and revision</p>
         <p> there is a variety of subjects and plans to choose from</p>
         <b> we hope you enjoy your learning and revision</b>
+        <c> hello world</c>
+        <d> hello world</d>
     </section>
     <?php include './parts/footer.php'; ?>
     
