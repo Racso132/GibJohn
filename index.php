@@ -9,7 +9,7 @@
 <body>
     
     <?php include './parts/header.php'; ?>
-    
+     
     <section>
         <h2>Welcome to the home page for your online tutoring </h2>
         <br>Explore the top rated tutors and plans for the best prices</br>

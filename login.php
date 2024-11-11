@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Execute the statement
         $stmt->execute([$_POST['username']]);
         $usr = $stmt->fetch();
-
+ 
         if (password_verify($_POST['password'], $usr['password'])) {
             $_SESSION['user']['id'] = $usr['id'];
             $_SESSION['user']['username'] = $usr['username'];

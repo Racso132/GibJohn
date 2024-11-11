@@ -5,7 +5,7 @@ $db_password = '';
 
 $pdo = new PDO($dsn, $db_username, $db_password);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-
+ 
 // Dummy PDO object to avoid error
 // $pdo = new stdClass();
 //$pdo->setAttribute = function() {};
