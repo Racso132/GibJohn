@@ -52,7 +52,6 @@
             <li>John</li>
             <li>Paul</li>
             <li>George</li>
-            <li>Ringo</li>
         </ul>
         <p>These are our top tutors and are the most popular</p>
     </section>

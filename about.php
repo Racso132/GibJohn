@@ -27,9 +27,14 @@ session_start()
         <p> there is a variety of subjects and plans to choose from</p>
         <b> we hope you enjoy your learning and revision</b>
         <p><i> idiot proof</i></p>
-        
-
     </section>
+
+    <secction>
+        <h2>Our Mission</h2>
+        <p>Our mission is to help you with your learning and revision needs. We aim to provide you with the best resources and tools to help you succeed in your studies.</p>
+        <p>Our team of experts are dedicated to helping you achieve your goals and reach your full potential.</p>
+        <p>We are committed to providing you with the best possible service and support to help you succeed in your studies.</p>
+        </section>
     <?php include './parts/footer.php'; ?>
     
 

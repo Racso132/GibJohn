@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user']['username'] = $usr['username'];
             header('Location: dashboard.php');
         } else {
-            $error = 'oopsy woopsy you need to register first or make sure your username and/or password are correct';
+            $error = 'uh oh something went wrong please make sure you have registered first or made sure your username and/or password are correct if  this proceeds to happen again and you have done the above please contact us or try re-registering or try again later. if you have forgotten your password please contact us and we will help you reset it';
         }
 
         // echo "Registration successful!";
