@@ -13,7 +13,6 @@ header {
     font-size: 15px;
     width: 100%;
     top: 0;
-    position:fixed;
 } 
 
 header > h1, header > h2 {
