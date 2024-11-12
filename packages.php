@@ -13,6 +13,8 @@
         }
         .free {
             background-color: #e0ffe0;
+            background-size: 20px 20px;
+            background-image: url('path/to/your/image.jpg'), linear-gradient(45deg, #e0ffe0 25%, transparent 75%, #e0ffe0 75%, #e0ffe0), linear-gradient(45deg, #e0ffe0 25%, transparent 25%, transparent 75%, #e0ffe0 75%, #e0ffe0);
         }
         .paid {
             background-color: #ffe0e0;
