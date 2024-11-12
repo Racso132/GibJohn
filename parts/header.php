@@ -13,7 +13,7 @@
             <a href=""></a>
             <a href="paidhealthplan.php">paid plan</a>
         <?php else: ?>
-            <a href="register.3">Register</a>
+            <a href="register.php">Register</a>
             <a href="login.php">Login</a>
         <?php endif; ?>
     </nav> 
