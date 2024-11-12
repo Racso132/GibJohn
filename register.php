@@ -33,7 +33,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <header>
-        <h1>GibJohn</h1>
         <?php include './parts/header.php'; ?> 
         
     </header>
