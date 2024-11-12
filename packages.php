@@ -9,29 +9,30 @@
             border: 1px solid #ccc;
             padding: 20px;
             margin: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
             border-radius: 5px;
-        }
-        .free {
-            background-color: #e0ffe0;
-            background-size: 20px 20px;
-            background-image: url('path/to/your/image.jpg'), linear-gradient(45deg, #e0ffe0 25%, transparent 75%, #e0ffe0 75%, #e0ffe0), linear-gradient(45deg, #e0ffe0 25%, transparent 25%, transparent 75%, #e0ffe0 75%, #e0ffe0);
-        }
-        .paid {
-            background-color: #ffe0e0;
         }
     </style>
 </head>
 <body>
     <h1>Revision Packages</h1>
-    <div class="package free">
+    <div class="package">
         <h2>Free Package</h2>
-        <p>This package includes basic revision materials and access to a limited number of practice questions.</p>
-        <p>Price: $0</p>
+        <p>Access to basic revision materials.</p>
+        <a href="purchase.php?package=free" class="button">Get Free Package</a>
     </div>
-    <div class="package paid">
+    <div class="package">
         <h2>Paid Package</h2>
-        <p>This package includes advanced revision materials, unlimited practice questions, and access to premium content.</p>
-        <p>Price: $29.99</p>
+        <p>Access to premium revision materials.</p>
+        <a href="purchase.php?package=paid" class="button">Buy Paid Package</a>
     </div>
 </body>
 </html>
