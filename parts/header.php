@@ -8,6 +8,7 @@
         <a href="termsandconditions.php">terms and condition</a>
         
         <?php if (isset($_SESSION['user']['id'])): ?>
+            <a href="packages.php">Packages</a>
             <a href="dashboard.php">Dashboard</a>
             <a href="logout.php">Logout</a>
             <a href=""></a>
