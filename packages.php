@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include './parts/header.php'; ?> 
     <title>Revision Packages</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles2.css">
 
 </head>
 <body>
