@@ -11,8 +11,6 @@
             <a href="packages.php">Packages</a>
             <a href="dashboard.php">Dashboard</a>
             <a href="logout.php">Logout</a>
-            <a href=""></a>
-            <a href="paidhealthplan.php">paid plan</a>
         <?php else: ?>
             <a href="register.php">Register</a>
             <a href="login.php">Login</a>

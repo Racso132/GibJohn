@@ -29,7 +29,7 @@
     <div class="package paid">
         <h2>Paid Package</h2>
         <p>This package includes advanced revision materials, unlimited practice questions, and access to premium content.</p>
-        <p>Price: $49.99</p>
+        <p>Price: $29.99</p>
     </div>
 </body>
 </html>
