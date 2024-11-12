@@ -11,6 +11,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt = $pdo->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
         $stmt->bindParam(':username', $username);
         $stmt->bindParam(':password', $password);
+        
+
+
         $stmt->execute();
 
         header('Location: login.php');
@@ -46,6 +49,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone: (not required)</label>
+            <input type="text" id="phone" name="phone">
             
             <input type="submit" value="Register">
         </form>
