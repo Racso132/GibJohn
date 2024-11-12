@@ -28,12 +28,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - Workout Routine</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Register - GibJohn</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Workout Routine</h1>
+        <h1>GibJohn</h1>
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a> 
