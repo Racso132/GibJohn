@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         // echo "Registration successful!";
-    } catch (PDOException $e) {
+    } catch (PDOException $e) { 
         echo "Error: " . $e->getMessage();
     }
 }
