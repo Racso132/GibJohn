@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
         // Prepare the SQL statement for inserting the user into the database
-        $stmt = $pdo->prepare("SELECT * FROM users WHERE username=?");     
+        $stmt = $pdo->prepare("SELECT * FROM users WHERE username=?");      
         // Execute the statement
         $stmt->execute([$_POST['username']]);
         $usr = $stmt->fetch();

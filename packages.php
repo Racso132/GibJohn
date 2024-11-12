@@ -13,7 +13,7 @@
     <div class="package">
         <h2>Free Package</h2>
         <p>Access to basic revision materials.</p>
-        <p>Price: Free</p>
+        <p>Price: Free</p> 
         <a href="purchase.php?package=free" class="button">Get Free Package</a>
     </div>
     <div class="package">

@@ -9,7 +9,7 @@
 <body>  
     <?php include './parts/header.php'; ?>            
     <section>
-        <h2>Contact Us</h2>
+        <h2>Contact Us</h2> 
         <div>
         <form action="process.php" method="post">
             <label for="name">Name:</label>

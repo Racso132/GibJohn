@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <?php include './parts/header.php'; ?>
+    <?php include './parts/header.php'; ?> 
     
     <section>
         <h2>Welcome to the home page for your online tutoring </h2>
