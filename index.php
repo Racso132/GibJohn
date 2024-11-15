@@ -16,6 +16,8 @@
         In this website youll be able to look at a variety of revision plans and subjects for your needs.</br>
         also you should find some helpful revision plans and subject timetable plans these will help keep your mind working and still give you time to enjoy learning.</br>
         Our company was founded in 2024 and we have been helping people with their learning ever since.</br>
+        We have a team of expert tutors who are here to help you with your learning.</br>
+        We offer a range of plans to suit your needs and budget.</br>
     </section>
 
     <section>
@@ -60,11 +62,18 @@
         <h3>Why choose us?</h3>
         <p>There are many reasons to choose us:</p>
         <ul>
-            <li>Our plans are affordable</li>
-            <li>Our tutors are experts</li>
-            <li>Our plans are flexible</li>
-            <li>Our plans are customisable</li>
+            <i><li>Our plans are affordable</li></i>
+            <i><li>Our tutors are experts</li></i>
+            <i><li>Our plans are flexible</li></i>
+            <i><li>Our plans are customisable</li></i>
+            <i><li>Our plans are easy to use</li></i>
+            <i><li>Our plans are effective</li></i>
+            <i><li>Our plans are fun</li></i>
+            <i><li>Our plans are interactive</li></i>
+            <i><li>Our plans are engaging</li></i>
+            <i><li>Our plans are rewarding</li></i>
         </ul>
+        <p>These are just some of the reasons to choose us</p>
     </section>
     
     <?php include './parts/footer.php'; ?>
