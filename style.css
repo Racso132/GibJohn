@@ -13,10 +13,9 @@ header {
     padding: 10px 0;
     text-align: center;
     font-size: 15px;
-    width: 100%;
     top: 0;
     border-color: #0300a0;
-    margin: 0 15px;
+    margin: 0;
     position: center;
 } 
 
@@ -46,7 +45,7 @@ nav {
     background-color: #34bfc4;
     color: rgb(0, 0, 0);
     font-size: 15px;
-    width: 100%;
+
     top: 0;
     position: center;
 }
