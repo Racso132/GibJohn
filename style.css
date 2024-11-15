@@ -317,3 +317,9 @@ ol {
     border-radius: 5px;
     position: center;
 }
+
+.button:hover {
+    background-color: #450769;
+    position: center;
+}
+
