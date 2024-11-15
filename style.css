@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
+    position: center;
+
 }
 
 header {
@@ -15,18 +17,21 @@ header {
     top: 0;
     border-color: #0300a0;
     margin: 0 15px;
+    position: center;
 } 
 
 header > h1, header > h2 {
 
     color: #ffffff;
     font-size: 15px;
+    position: center;
 } 
  
 nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0;
+    position: center;
 }
 
 nav a:hover {
@@ -43,6 +48,7 @@ nav {
     font-size: 15px;
     width: 100%;
     top: 0;
+    position: center;
 }
 
 section {
@@ -50,22 +56,26 @@ section {
     margin: 20px;
     background-color: white;
     border-radius: 5px;
+    position: center;
 }
 
 h1 {
 
     color: #000000;
     font-size: 20px;
+    position: center;
 }
 
 h3 {
     color: #000000;
     font-size: 15px;
+    position: center;
 }
 
 p {
     color: #000000;
     font-size: 15px;
+    position: center;
 }
 
 
@@ -74,11 +84,13 @@ form {
     flex-direction: column;
     width: 50%;
     margin: auto;
+    position: center;
 }
 
 label {
     margin-top: 15px;
     color: #000000;
+    position: center;
 }
 
 input[type="text"], input[type="email"], textarea {
@@ -88,6 +100,7 @@ input[type="text"], input[type="email"], textarea {
     color: rgb(0, 0, 0);
     border-radius: 3px;
     font-size: 15px;
+    position: center;
 }
 
 input[type="submit"] {
@@ -99,11 +112,13 @@ input[type="submit"] {
     cursor: pointer;
     margin-top: 20px;
     font-size: 15px;
+    position: center;
 }
 
 input[type="submit"]:hover {
     background-color: #0300a0;
     font-size: 15px;
+    position: center;
 }
 
 input[type="reset"] {
@@ -115,11 +130,13 @@ input[type="reset"] {
     cursor: pointer;
     margin-top: 20px;
     font-size: 15px;
+    position: center;
 }
 
 input[type="reset"]:hover {
     background-color: #0300a0;
     font-size: 15px;
+    position: center;
 }
 
 
@@ -131,8 +148,10 @@ footer {
     font-size: 15px;
     width: 100%;
     bottom: 0;
-    font-size: 20px;
-    position: fixed;
+    position: center;
+    text-decoration: underline;
+    text-wrap: balance;
+    margin: 10px;
 }
 
 
@@ -143,7 +162,7 @@ br {
     text-wrap: balance;
     padding: 10px;
     margin: 10px; 
-    position: fixed;
+    position: center;
     width: 100%;
     font-size: 15px;
 }
@@ -170,6 +189,7 @@ a:hover {
 a {
     font-size: 20px;
     color: rgb(0, 0, 0);
+    position: center;
 }
 
 
@@ -181,6 +201,7 @@ img {
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
+    position: center;
 }
 
 .container {
@@ -188,6 +209,7 @@ img {
     margin: auto;
     overflow: hidden;
     font-size: 20px;
+    position: center;
 }
 
 .container img {
@@ -198,6 +220,7 @@ img {
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
+    position: center;
 }
 
 
@@ -210,6 +233,7 @@ img {
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
+    position: center;
 }
 
 .jpg img {
@@ -220,37 +244,44 @@ img {
     border-radius: 50%;
     padding: 10px;
     margin: 10px;
+    position: center;
 }
 
 b {
     color: #0300a0;
     font-size: 20px;
     mask-position: right;
+    position: center;
 }
 
 h2 {
     color: #000000;
     font-size: 20px;
+    position: center;
 }
 
 h3 {
     color: #000000;
     font-size: 20px;
+    position: center;
 }
 
 h4 {
     color: #000000;
     font-size: 20px;
+    position: center;
 }
 
 h5 {
     color: #000000;
     font-size: 20px;
+    position: center;
 }
 
 h6 {
     color: #000000;
     font-size: 20px;
+    position: center;
 }
 
 li {
@@ -274,6 +305,7 @@ ol {
     margin: 20px;
     text-align: center;
     color: #ffffff;
+    position: center;
 }
 .button {
     display: inline-block;
@@ -283,4 +315,5 @@ ol {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    position: center;
 }
