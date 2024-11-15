@@ -12,7 +12,7 @@
         $email = htmlspecialchars($_POST['email']);
         $package = htmlspecialchars($_POST['package']);
         
-        // Here you can add code to process the purchase, e.g., save to a database or send an email
+        // Here you can add code to process the purchase, e.g. save to a database or send an email
 
         echo "<h2>Thank you for your purchase, $name!</h2>";
         echo "<p>You have successfully purchased the $package package.</p>";
