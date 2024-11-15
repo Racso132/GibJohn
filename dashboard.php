@@ -17,7 +17,7 @@ if (!isset($_SESSION['user']['id'])) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>User Dashboard - Architectural Wonders</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <?php include './parts/header.php'; ?>
