@@ -4,7 +4,7 @@
     <p>Any use of the GibJohn trademark will have a letter through their door with a court date</p>
     <p>For any questions or issues, please <a href="contact.php">contact us</a>.</p>
     <p>For more information, see our <a href="termsandcondition.php">terms of service</a>.</p>
-    <img src="" alt="">
+    <img src="tutor.jpg" alt="tutor">
 </footer>
 </body>
 

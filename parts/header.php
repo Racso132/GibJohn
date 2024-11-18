@@ -35,6 +35,7 @@ class part_header {
                         <a href="packages.php">Packages</a>
                         <a href="dashboard.php">Dashboard</a>
                         <a href="logout.php">Logout</a>
+                        <a href="profile.php">Profile</a>
                     <?php else: ?>
                         <a href="register.php">Register</a>
                         <a href="login.php">Login</a>
