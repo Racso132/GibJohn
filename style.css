@@ -45,8 +45,7 @@ nav {
     background-color: #34bfc4;
     color: rgb(0, 0, 0);
     font-size: 15px;
-
-    top: 0;
+    width: 100%;
     position: center;
 }
 
