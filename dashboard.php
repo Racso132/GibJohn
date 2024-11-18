@@ -15,7 +15,7 @@ new part_header("Dashboard");
 
 
 <section>
-    <h2>Hello, <?php echo htmlspecialchars($_SESSION['user']['username']); ?>!</h2>
+    <h2>Hello, <?php echo htmlspecialchars($_SESSION['user']['username']); ?>!</h2> 
     <p>This is a protected page. Only logged-in users can access this dashboard.</p>
     <p>Feel free to explore exclusive content or manage your account here.</p>
     <p>For any questions or issues, please <a href="contact.php">contact us</a>.</p>

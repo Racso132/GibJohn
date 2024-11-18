@@ -22,6 +22,6 @@ new part_header("Contact Us");
         <p>Access to premium revision materials.</p>
         <p>Price: £12.99</p>
         <a href="purchase.php?package=paid" class="button">Buy Paid Package</a> <!-- Link to purchase the paid package -->
-    </div>
+    </div> 
 </body>
 </html>

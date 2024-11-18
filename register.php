@@ -28,7 +28,7 @@ new part_header("Register");
 
 
 ?>
-
+  
 <section>
     <h2>Register</h2>
     <div>

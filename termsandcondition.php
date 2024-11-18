@@ -29,4 +29,4 @@ new part_header("Terms and Conditions");
     <img class="img-responsive" src="">
 </section>
 
-<?php include './parts/footer.php'; ?>
+<?php include './parts/footer.php'; ?> 
