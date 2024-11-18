@@ -87,7 +87,7 @@ new part_header("Home");
             <li>Our plans are rewarding</li>
         </i>
     </ul>
-    <p>These are just some of the reasons to choose us</p>
+    <p>These are just some of a the reasons to choose us</p>
 </section>
 
 <?php include './parts/footer.php'; ?>
