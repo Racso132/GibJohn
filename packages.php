@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include './parts/header.php'; ?> <!-- Include the header part of the page -->
-    <title>Revision Packages</title>
-    <link rel="stylesheet" href="styles2.css"> <!-- Link to the external CSS file -->
+
+<?php
+
+// Include the header part of the page
+include_once './parts/header.php';
+
+// Create a new instance of the part_header class
+new part_header("Contact Us");
+?>
 
 </head>
 <body>

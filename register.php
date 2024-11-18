@@ -20,33 +20,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
-} 
+}
+
+include_once './parts/header.php';
+
+new part_header("Register");
 
 
-
- 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - GibJohn</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <?php include './parts/header.php'; ?> 
-        
-    </header>
 
-    <section>
-        <h2>Register</h2>
-        <div>
+<section>
+    <h2>Register</h2>
+    <div>
         <form action="register.php" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
-            
+
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
 
@@ -55,12 +44,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <label for="phone">Phone: (not required)</label>
             <input type="text" id="phone" name="phone">
-            
+
             <input type="submit" value="Register">
         </form>
-            </div>
-    </section>
-    <?php include './parts/footer.php'; ?>
-    
+    </div>
+</section>
+<?php include './parts/footer.php'; ?>
+
 </body>
+
 </html>

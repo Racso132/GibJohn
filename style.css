@@ -13,10 +13,10 @@ header {
     padding: 10px 0;
     text-align: center;
     font-size: 15px;
+    width: 100%;
     top: 0;
     border-color: #0300a0;
-    margin: 0;
-    position: center;
+    margin: 0 15px;
 } 
 
 header > h1, header > h2 {
@@ -46,12 +46,7 @@ nav {
     color: rgb(0, 0, 0);
     font-size: 15px;
     width: 100%;
-    position: center;
-    margin: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    top: 0;
 }
 
 section {
@@ -64,7 +59,7 @@ section {
 
 h1 {
 
-    color: #000000;
+    color: #0c6b1c;
     font-size: 20px;
     position: center;
 }
@@ -76,7 +71,7 @@ h3 {
 }
 
 p {
-    color: #000000;
+    color: #0aa117;
     font-size: 15px;
     position: center;
 }
@@ -307,8 +302,9 @@ ol {
     padding: 20px;
     margin: 20px;
     text-align: center;
-    color: #ffffff;
+    color: #0f9c4a;
     position: center;
+    background-color: #34bfc4;
 }
 .button {
     display: inline-block;
@@ -326,3 +322,7 @@ ol {
     position: center;
 }
 
+div {
+    background-color: aqua;
+    font-size: 20px;
+}
