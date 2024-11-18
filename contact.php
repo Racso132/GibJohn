@@ -22,5 +22,5 @@ new part_header("Contact Us");
             <input type="submit" value="Send Message"> <!-- Submit button for the form -->
         </form>
     </div>
-</section>
+</section> <!-- End of the contact section -->
 <?php include './parts/footer.php'; ?> <!-- Include the footer part of the page -->

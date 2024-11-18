@@ -19,6 +19,6 @@ new part_header("Dashboard");
     <p>This is a protected page. Only logged-in users can access this dashboard.</p>
     <p>Feel free to explore exclusive content or manage your account here.</p>
     <p>For any questions or issues, please <a href="contact.php">contact us</a>.</p>
-    <img src="">
+    <img src=""> 
 </section>
 <?php include './parts/footer.php'; ?>

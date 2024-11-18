@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $e->getMessage();
     }
 }
-
+ 
 include_once './parts/header.php';
 
 new part_header("Register");

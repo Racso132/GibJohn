@@ -19,7 +19,7 @@ new part_header("Home");
     <p>Our top plans are:</p>
     <ul>
         <li>Maths</li>
-        <li>English</li>
+        <li>English</li> 
         <li>Science</li>
         <li>History</li>
         <li>Geography</li>

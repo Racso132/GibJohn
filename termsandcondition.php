@@ -8,7 +8,7 @@ new part_header("Terms and Conditions");
     <p>personal work</p>
     <p>plagiarism will be acted on</p>
     <p>use the website as intended</p>
-    <p>no hacking</p>
+    <p>no hacking</p> 
     <p>no spamming</p>
     <p>no sharing of personal information</p>
     <p>no sharing of personal work</p>

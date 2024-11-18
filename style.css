@@ -16,7 +16,7 @@ header {
 }
 
 header > h1, header > h2 {
-    color: #ffffff;
+    color: #ffffff; 
     font-size: 15px;
 }
 

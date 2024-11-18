@@ -19,7 +19,7 @@
         // Display a thank you message
         echo "<h2>Thank you for your purchase, $name!</h2>";
         echo "<p>You have successfully purchased the $package package.</p>";
-    } else { 
+    } else {  
     ?>
     <h1>Purchase Package</h1>
     <!-- Display the purchase form -->
