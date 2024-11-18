@@ -8,9 +8,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
         // Insert user into the database
-        $stmt = $pdo->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
+        $stmt = $pdo->prepare("INSERT INTO users (username, password, email) VALUES (:username, :password, :email)");
         $stmt->bindParam(':username', $username);
         $stmt->bindParam(':password', $password);
+        $stmt->bindParam(':email', $email);
 
 
 

@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($usr && password_verify($password, $usr['password'])) {
             $_SESSION['user']['id'] = $usr['id'];
             $_SESSION['user']['username'] = $usr['username']; 
+            $_SESSION['user']['email'] = $usr['email'];
             header('Location: dashboard.php');
         } else {
             $error = 'Uh oh, something went wrong. Please make sure you have registered first or made sure your email, username, and/or password are correct. If this issue persists, please contact us or try re-registering or try again later. If you have forgotten your password, please contact us and we will help you reset it.';
