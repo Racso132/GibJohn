@@ -28,15 +28,15 @@ new part_header("Home");
 
         <li>Geography</li> <img class="geography_revision" src="geography.jpg">
 
-        <li>French</li> <img class="french_revision" src="french.png">
+        <li>Français</li> <img class="french_revision" src="french.png">
 
-        <li>Spanish</li> <img class="spanish_revision" src="spanish.jpg">
+        <li>Español</li> <img class="spanish_revision" src="spanish.jpg">
 
-        <li>German</li> <img class="german_revision" src="german.jpg"> 
+        <li>Deutsch</li> <img class="german_revision" src="german.jpg"> 
 
-        <li>Italian</li> <img class="italian_revision" src="italian.jpg">
+        <li>Italiano</li> <img class="italian_revision" src="italian.jpg">
 
-        <li>Chinese</li> <img class="chinese_revision" src="chinese.jpg">
+        <li>中文</li> <img class="chinese_revision" src="chinese.jpg">
 
         <li>Computing</li> <img class="computing_revision" src="computing.jpg">
 
