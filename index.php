@@ -34,9 +34,8 @@ new part_header("Home");
         <p>hola mundo</p>
         <li>Deutsch</li> <img class="german_revision" src="german.jpg"> 
         <p>hallo welt</p>
-        <li>Italiano</li> <img class="italian_revision" src="italian.jpg">
-        <p>ciao mondo</p>
-        <li>中文</li> <img class="chinese_revision" src="chinese.jpg">
+
+        <li>普通话</li> <img class="chinese_revision" src="chinese.jpg">
         <p>你好，世界</p>
         <li>Computing</li> <img class="computing_revision" src="computing.jpg">
 

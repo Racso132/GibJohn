@@ -487,27 +487,6 @@ img.hover {
     box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
 }
 
-.italian_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\italian_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.italian_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
 .german_revision {
     background-image: url('"C:\xampp\htdocs\GibJohn\german_revision.png"');
     background-size: cover;
