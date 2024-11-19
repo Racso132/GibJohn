@@ -1,19 +1,14 @@
-    <p>For more information, see our <a href="privacy.php">privacy policy</a>.</p>
-    <p>For more information, see our <a href="cookie.php">cookie policy</a>.</p>
+
     <p>For more information, see our <a href="sitemap.php">sitemap</a>.</p>
-    <p>For more information, see our <a href="about.php">about us</a>.</p>
+
     <p>For more information, see our <a href="faq.php">FAQ</a>.</p>
-    <p>For more information, see our <a href="help.php">help</a>.</p>
-    <p>For more information, see our <a href="support.php">support</a>.</p>
-    <p>For more information, see our <a href="press.php">press</a>.</p>
-    <p>For more information, see our <a href="jobs.php">jobs</a>.</p>
-    <p>For more information, see our <a href="partners.php">partners</a>.</p>
-    <p>For more information, see our <a href="developers.php">developers</a>.</p>
-    <p>For more information, see our <a href="legal.php">legal</a>.</p>
-    <p>For more information, see our <a href="updates.php">updates</a>.</p>
+
+
+
+
+
+
     <p>For more information, see our <a href="news.php">news</a>.</p>
     <p>For more information, see our <a href="events.php">events</a>.</p>
-    <p>For more information, see our <a href="blog.php">blog</a>.</p>
-    <p>For more information, see our <a href="forum.php">forum</a>.</p>
-    <p>For more information, see our <a href="feedback.php">feedback</a>.</p>
-    <p>For more information, see our <a href="contact.php">contact us</a>.</p>
+
+
