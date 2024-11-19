@@ -18,11 +18,11 @@ new part_header("Home");
     <h3>Our top plans</h3>
     <p>Our top plans are:</p>
     <ul>
-        <li>Maths</li> <img class="english_revision" src="maths.jpg">
+        <li>Maths</li> <img class="maths_revision" src="maths.jpg">
         <li>English</li> <img class="english_revision" src="english.jpg">
-        <li>Science</li>  <img class="english_revision" src="science.jpg">
-        <li>History</li>
-        <li>Geography</li>
+        <li>Science</li>  <img class="science_revision" src="science.jpg">
+        <li>History</li> <img class="history_revision" src="history.webp">
+        <li>Geography</li> <img class="geography_revision" src="geography.jpg">
         <li>French</li>
         <li>Spanish</li>
         <li>German</li>
