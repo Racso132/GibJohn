@@ -29,15 +29,15 @@ new part_header("Home");
         <li>Geography</li> <img class="geography_revision" src="geography.jpg">
 
         <li>Français</li> <img class="french_revision" src="french.png">
-
+        <p>bonjour le monde</p>
         <li>Español</li> <img class="spanish_revision" src="spanish.jpg">
-
+        <p>hola mundo</p>
         <li>Deutsch</li> <img class="german_revision" src="german.jpg"> 
-
+        <p>hallo welt</p>
         <li>Italiano</li> <img class="italian_revision" src="italian.jpg">
-
+        <p>ciao mondo</p>
         <li>中文</li> <img class="chinese_revision" src="chinese.jpg">
-
+        <p>你好，世界</p>
         <li>Computing</li> <img class="computing_revision" src="computing.jpg">
 
         <li>Business</li> <img class="business_revision" src="business.jpg">
