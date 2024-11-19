@@ -29,7 +29,7 @@ new part_header("Home");
         <li>Geography</li> <img class="geography_revision" src="geography.jpg">
 
         <li>Français</li> <img class="french_revision" src="french.png">
-        <p>bonjour le monde</p>
+        <p>bonjour le monde</p> 
         <li>Español</li> <img class="spanish_revision" src="spanish.jpg">
         <p>hola mundo</p>
         <li>Deutsch</li> <img class="german_revision" src="german.jpg"> 

@@ -26,4 +26,4 @@ new part_header("Dashboard");
     <p>For any questions or issues, please <a href="contact.php">contact us</a>.</p>
 </section>
 </div>
-<?php include './parts/footer.php'; ?>
+<?php include './parts/footer.php'; ?> 

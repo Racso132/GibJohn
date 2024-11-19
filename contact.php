@@ -20,7 +20,7 @@ new part_header("Contact Us");
             <textarea id="message" name="message" rows="5" required></textarea> <!-- Textarea for user's message -->
 
             <input type="submit" value="Send Message"> <!-- Submit button for the form -->
-        </form>
+        </form>  
     </div>
 </section> <!-- End of the contact section -->
 <?php include './parts/footer.php'; ?> <!-- Include the footer part of the page -->

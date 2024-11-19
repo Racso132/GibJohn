@@ -23,5 +23,7 @@ new part_header("Contact Us");
         <a href="purchase.php?package=paid" class="button">Buy Paid Package</a> <!-- Link to purchase the paid package -->
     </div> 
 
+    
 
- 
+
+  

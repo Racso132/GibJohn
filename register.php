@@ -30,7 +30,7 @@ include_once './parts/header.php';
 
 new part_header("Register");
 
-
+ 
 ?>
   
 <section>

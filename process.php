@@ -11,4 +11,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p>Your message has been received. We'll get back to you at " . $email . " soon.</p>";
     echo "<p>Your message: " . $message . "</p>";
 }
-?>  
+?>   

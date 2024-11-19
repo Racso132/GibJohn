@@ -25,7 +25,7 @@ new part_header("Home");
         <a href="#">Email: <?php echo htmlspecialchars($user['email']); ?></a>
     </div>
 </div>
-
+ 
 
 
 

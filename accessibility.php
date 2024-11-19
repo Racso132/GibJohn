@@ -12,10 +12,10 @@
             /* Default styles */
             color: #000;
             font-size: 16px;
-        }
+        } 
     </style>
 </head>
-<body>
+<body> 
     <h1>Accessibility Settings</h1>
     <form id="accessibility-form">
         <label for="font-color">Font Color:</label>

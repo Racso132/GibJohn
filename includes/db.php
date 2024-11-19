@@ -14,4 +14,4 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //$pdo->execute = function() {};
 //$pdo->fetch = function() {};
 //$pdo->fetchAll = function() {};
-//$pdo->lastInsertId = function() {};
+//$pdo->lastInsertId = function() {}; 
