@@ -297,6 +297,23 @@ li, ul, ol {
     display: block;                          
     border-radius: 50%;                          
     padding: 10px;
+
+}
+
+.learning_together {
+    background-image: url('"C:\xampp\htdocs\GibJohn\learning_together.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+    margin: auto;                         
+    display: block;                          
+    border-radius: 50%;                          
+    padding: 10px;
 }
 
 
