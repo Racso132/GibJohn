@@ -23,6 +23,7 @@ new part_header("Home");
     <div class="dropdown-content">
         <a href="#">Name: <?php echo htmlspecialchars($user['username']); ?></a>
         <a href="#">Email: <?php echo htmlspecialchars($user['email']); ?></a>
+        <a href="#">Phone: <?php echo htmlspecialchars($user['phone']); ?></a>
     </div>
 </div>
  

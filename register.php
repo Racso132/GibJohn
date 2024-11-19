@@ -6,17 +6,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Hash the password
         $username = $_POST['username'];
         $email = $_POST['email'];
+        $phone = $_POST['phone'];
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
         // Insert user into the database
-        $stmt = $pdo->prepare("INSERT INTO users (username, password, email) VALUES (:username, :password, :email)");
+        $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone) VALUES (:username, :password, :email, :phone)");
         $stmt->bindParam(':username', $username);
         $stmt->bindParam(':password', $password);
         $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':phone', $phone);
 
+        if ($_POST['password'] !== $_POST['confirm_password']) {
+            echo "Passwords do not match";
+            exit();
+        }
 
+        if (empty($username) || empty($email) || empty($password)) {
+            echo "Please fill in all fields";
+            exit();
+        }
 
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            echo "Invalid email";
+            exit();
+        }
 
+       // if (!empty($phone) && !preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $phone)) {
+       //     echo "Invalid phone number";
+       //     exit();
+       // }
 
         $stmt->execute();
 

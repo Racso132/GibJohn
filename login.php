@@ -19,6 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user']['id'] = $usr['id'];
             $_SESSION['user']['username'] = $usr['username']; 
             $_SESSION['user']['email'] = $usr['email'];
+            $_SESSION['user']['phone'] = $usr['phone'];
+
             header('Location: dashboard.php');
         } else {
             $error = 'uh oh something went wrong please make sure you have registered first or made sure your username and/or password are correct if  this proceeds to happen again and you have done the above please contact us or try re-registering or try again later. if you have forgotten your password please contact us and we will help you reset it';
@@ -47,6 +49,9 @@ new part_header("Login");
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
 
             <input type="submit" value="Login">
         </form>
