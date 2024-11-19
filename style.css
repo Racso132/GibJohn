@@ -123,7 +123,13 @@ img {
     display: block;
     border-radius: 50%;
     padding: 10px;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(4, 69, 122, 0.5);
+  }
 
 .container {
     width: 80%;
@@ -232,4 +238,44 @@ li, ul, ol {
     nav, section {
         width: 100%;
     }
+}
+
+.blur {
+    filter: blur(4px);
+}
+
+.brightness {
+    filter: brightness(250%);
+}
+
+.contrast {
+    filter: contrast(180%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.saturate {
+    filter: saturate(7);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.shadow {
+    filter: drop-shadow(8px 8px 10px green);
 }
