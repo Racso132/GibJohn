@@ -30,7 +30,7 @@ new part_header("About Us");
     <p><i>Secure</i></p>
     <p><i>Safe</i></p>
     <p><i>Efficient</i></p>
-    <img src="tutor.jpg" alt="tutor">
+    <img class="img-tutor" src="tutor.jpg">
     <p><i>Effective</i></p>
     <p><i>Helpful</i></p>
     <p><i>Useful</i></p>
