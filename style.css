@@ -650,7 +650,7 @@ img.hover {
     position: right;
 }
 
-.physical_education_revision:hover {
+.pe_revision:hover {
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
     box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
 }
@@ -693,27 +693,6 @@ img.hover {
 }
 
 .foodtech_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.health_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\health_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.health_revision:hover {
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
     box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
 }
@@ -802,48 +781,6 @@ img.hover {
     box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
 }
 
-.geology_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\geology.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.geology:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.environmental_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\environmental_science.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.environmental_science:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
 .engineering_revision {
     background-image: url('"C:\xampp\htdocs\GibJohn\engineering_revision.png"');
     background-size: cover;
@@ -861,27 +798,6 @@ img.hover {
 }
 
 .engineering_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.construction_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\construction_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.construction_revision:hover {
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
     box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
 }

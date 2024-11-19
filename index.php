@@ -52,8 +52,6 @@ new part_header("Home");
 
         <li>Food tech</li> <img class="foodtech_revision" src="foodtech.jpg"> 
 
-        <li>Health and Social Care</li> <img class="health_revision" src="health.jpg"> 
-
         <li>Psychology</li> <img class="psychology_revision" src="psychology.jpg">
 
         <li>Sociology</li> <img class="sociology_revision" src="sociology.jpg">
@@ -62,13 +60,7 @@ new part_header("Home");
 
         <li>Media Studies</li> <img class="media_revision" src="media.jpg">
 
-        <li>Geology</li> <img class="geology_revision" src="geology.jpg">
-
-        <li>Environmental Science</li> <img class="environmental_revision" src="environmental.jpg">
-
         <li>Engineering</li> <img class="engineering_revision" src="engineering.jpg">
-
-        <li>Construction</li> <img class="construction_revision" src="construction.jpg">
 
         <li>Motor Vehicle</li> <img class="motorvehicle_revision" src="motorvehicle.jpg">
 
