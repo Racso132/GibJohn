@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($_POST['password'], $usr['password'])) {
             $_SESSION['user']['id'] = $usr['id'];
             $_SESSION['user']['username'] = $usr['username']; 
+            $_SESSION['user']['email'] = $usr['email'];
             header('Location: dashboard.php');
         } else {
             $error = 'uh oh something went wrong please make sure you have registered first or made sure your username and/or password are correct if  this proceeds to happen again and you have done the above please contact us or try re-registering or try again later. if you have forgotten your password please contact us and we will help you reset it';
@@ -43,6 +44,9 @@ new part_header("Login");
 
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
             <input type="submit" value="Login">
         </form>
