@@ -19,15 +19,59 @@ new part_header("Home");
     <p>Our top plans are:</p>
     <ul>
         <li>Maths</li> <img class="maths_revision" src="maths.jpg">
+
         <li>English</li> <img class="english_revision" src="english.jpg">
+
         <li>Science</li>  <img class="science_revision" src="science.jpg">
+
         <li>History</li> <img class="history_revision" src="history.webp">
+
         <li>Geography</li> <img class="geography_revision" src="geography.jpg">
-        <li>French</li>
-        <li>Spanish</li>
-        <li>German</li>
-        <li>Italian</li>
-        <li>Chinese</li>
+
+        <li>French</li> <img class="french_revision" src="french.png">
+
+        <li>Spanish</li> <img class="spanish_revision" src="spanish.jpg">
+
+        <li>German</li> <img class="german_revision" src="german.jpg"> 
+
+        <li>Italian</li> <img class="italian_revision" src="italian.jpg">
+
+        <li>Chinese</li> <img class="chinese_revision" src="chinese.jpg">
+
+        <li>Computing</li> <img class="computing_revision" src="computing.jpg">
+
+        <li>Business</li> <img class="business_revision" src="business.jpg">
+
+        <li>Art</li> <img class="art_revision" src="art.jpg">
+
+        <li>Music</li> <img class="music_revision" src="music.jpg">
+
+        <li>Physical Education</li> <img class="pe_revision" src="pe.jpg">
+
+        <li>Design and Technology</li> <img class="dt_revision" src="dt.jpg">
+
+        <li>Food tech</li> <img class="foodtech_revision" src="foodtech.jpg"> 
+
+        <li>Health and Social Care</li> <img class="health_revision" src="health.jpg"> 
+
+        <li>Psychology</li> <img class="psychology_revision" src="psychology.jpg">
+
+        <li>Sociology</li> <img class="sociology_revision" src="sociology.jpg">
+
+        <li>Religious Studies</li> <img class="rs_revision" src="rs.jpg">
+
+        <li>Media Studies</li> <img class="media_revision" src="media.jpg">
+
+        <li>Geology</li> <img class="geology_revision" src="geology.jpg">
+
+        <li>Environmental Science</li> <img class="environmental_revision" src="environmental.jpg">
+
+        <li>Engineering</li> <img class="engineering_revision" src="engineering.jpg">
+
+        <li>Construction</li> <img class="construction_revision" src="construction.jpg">
+
+        <li>Motor Vehicle</li> <img class="motorvehicle_revision" src="motorvehicle.jpg">
+
     </ul>
     <p>These are our top plans and are the most popular</p>
 </section>

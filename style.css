@@ -444,3 +444,474 @@ img.hover {
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
     box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
 }
+
+.french_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\french_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.french_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.spanish_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\spanish_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.spanish_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.italian_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\italian_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.italian_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.german_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\german_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.german_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.chinese_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\chinese_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.chinese_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.computing_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\computing_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.computing_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.business_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\business_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.business_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.art_revision{
+    background-image: url('"C:\xampp\htdocs\GibJohn\art_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.art_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.music_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\music_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.music_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.pe_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\physical_education_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.physical_education_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.dt_revision{
+    background-image: url('"C:\xampp\htdocs\GibJohn\dt_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.dt_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.foodtech_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\food_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.foodtech_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.health_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\health_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.health_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.psychology_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\psychology_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.psychology_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.sociology_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\sociology_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.sociology_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.rs_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\religious_studies_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.rs_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.media_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\media_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.media_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.geology_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\geology.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.geology:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.environmental_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\environmental_science.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.environmental_science:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.engineering_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\engineering_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.engineering_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.construction_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\construction_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.construction_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.motorvehicle_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\motorvehicle_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+}
+
+.motorvehicle_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+
+
+
+
+
+
+
+
