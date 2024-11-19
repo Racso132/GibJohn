@@ -39,11 +39,11 @@ new part_header("Home");
         <p>你好，世界</p>
         <li>Computing</li> <img class="computing_revision" src="computing.jpg">
 
-        <li>Business</li> <img class="business_revision" src="business.jpg">
+        <li>Business</li> <img class="business_revision" src="business.jpeg">
 
         <li>Art</li> <img class="art_revision" src="art.jpg">
 
-        <li>Music</li> <img class="music_revision" src="music.jpg">
+        <li>Music</li> <img class="music_revision" src="music.webp">
 
         <li>Physical Education</li> <img class="pe_revision" src="pe.jpg">
 
