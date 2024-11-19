@@ -26,7 +26,7 @@ new part_header("Terms and Conditions");
     <p> thank you for reading the terms and conditions</p>
     <p>enjoy the website</p>
     <p>thank you</p>
-    <img class="img-responsive" src="">
+    <img class="img-responsive" src="Copyright.jpg">
 </section>
 
 <?php include './parts/footer.php'; ?> 
