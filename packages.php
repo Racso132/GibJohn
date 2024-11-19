@@ -8,8 +8,7 @@ include_once './parts/header.php';
 new part_header("Contact Us");
 ?>
 
-</head>
-<body>
+
     <h1>Revision Packages</h1>
     <div class="package">
         <h2>Free Package</h2>
@@ -23,6 +22,6 @@ new part_header("Contact Us");
         <p>Price: £12.99</p>
         <a href="purchase.php?package=paid" class="button">Buy Paid Package</a> <!-- Link to purchase the paid package -->
     </div> 
-</body>
-</html>
+
+
  
