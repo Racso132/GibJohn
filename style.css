@@ -274,6 +274,10 @@ li, ul, ol {
 }
 
 .shadow {
+    filter: drop-shadow(8px 8px 10px rgb(4, 6, 141));
+}
+
+img.hover {
     filter: drop-shadow(8px 8px 10px green);
 }
 
@@ -316,8 +320,86 @@ li, ul, ol {
     padding: 10px;
 }
 
+.img-responsive:hover {
+    filter: drop-shadow(8px 8px 10px rgb(29, 192, 29)) !important;
+    box-shadow: 0 0 2px 1px rgba(116, 26, 78, 0.5) !important;
+}
 
+.img-tutor:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
 
+.learning_together:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.english_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\english_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+
+}
+
+.english_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.math_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\math_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+
+}
+
+.math_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
+
+.science_revision {
+    background-image: url('"C:\xampp\htdocs\GibJohn\science_revision.png"');
+    background-size: cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 10% !important;
+    height: auto !important;
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
+    display: block;                          
+    border-radius: 25%;                          
+    padding: 10px;
+    position: right;
+
+}
+
+.science_revision:hover {
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
+}
 
 
 

@@ -18,9 +18,9 @@ new part_header("Home");
     <h3>Our top plans</h3>
     <p>Our top plans are:</p>
     <ul>
-        <li>Maths</li>
-        <li>English</li> 
-        <li>Science</li>
+        <li>Maths</li> <img class="english_revision" src="maths.jpg">
+        <li>English</li> <img class="english_revision" src="english.jpg">
+        <li>Science</li>  <img class="english_revision" src="science.jpg">
         <li>History</li>
         <li>Geography</li>
         <li>French</li>
@@ -37,7 +37,13 @@ new part_header("Home");
     <p>Getting started is easy. Just follow these steps:</p>
     <ol>
         <li>Register</li>
+        <li>Log in</li>
         <li>Choose a plan</li>
+        <li>Choose a tutor</li>
+        <li>Choose a subject</li>
+        <li>Choose a time</li>
+        <li>Choose a date</li>
+        <li>Pay or get the free version but miss out on many of the above</li>
         <li>Start learning</li>
     </ol>
 </section>
