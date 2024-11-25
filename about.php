@@ -2,7 +2,7 @@
 session_start(); // Start the session
 include_once './parts/header.php';
 new part_header("About Us"); 
-?>
+?> 
 
 <section>
     <h2>About Us</h2>

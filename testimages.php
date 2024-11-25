@@ -8,4 +8,4 @@
 <img class="opacity" src="tutor.jpg" alt="tutor" width="300" height="300">
 <img class="saturate" src="tutor.jpg" alt="tutor" width="300" height="300">
 <img class="sepia" src="tutor.jpg" alt="tutor" width="300" height="300">
-<img class="shadow" src="tutor.jpg" alt="tutor" width="300" height="300"> 
+<img class="shadow" src="tutor.jpg" alt="tutor" width="300" height="300">  

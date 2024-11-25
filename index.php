@@ -13,7 +13,7 @@ new part_header("Home");
     We have a team of expert tutors who are here to help you with your learning.</br>
     We offer a range of plans to suit your needs and budget.</br>
 </section>
- 
+  
 <section>
     <h3>Our top plans</h3>
     <p>Our top plans are:</p>

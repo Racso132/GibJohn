@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Invalid email";
             exit();
         }
-
+ 
         // Prepare and execute the database insert
         $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone) VALUES (:username, :password, :email, :phone)");
         $stmt->bindParam(':username', $username);

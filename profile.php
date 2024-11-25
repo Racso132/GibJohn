@@ -26,7 +26,7 @@ new part_header("Home");
         <a href="#">Phone: <?php echo htmlspecialchars($user['phone']); ?></a>
     </div>
 </div>
- 
+  
 
 
 
