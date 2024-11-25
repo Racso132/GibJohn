@@ -8,7 +8,7 @@ new part_header("Terms and Conditions");
     <p>personal work</p>
     <p>plagiarism will be acted on</p>
     <p>use the website as intended</p>
-    <p>no hacking</p>
+    <p>no hacking</p> 
     <p>no spamming</p>
     <p>no sharing of personal information</p>
     <p>no sharing of personal work</p>
@@ -26,7 +26,7 @@ new part_header("Terms and Conditions");
     <p> thank you for reading the terms and conditions</p>
     <p>enjoy the website</p>
     <p>thank you</p>
-    <img class="img-responsive" src="">
+    <img class="img-responsive" src="Copyright.jpg">
 </section>
 
-<?php include './parts/footer.php'; ?> 
+<?php include './parts/footer.php'; ?>  

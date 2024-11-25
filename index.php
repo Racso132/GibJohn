@@ -18,16 +18,54 @@ new part_header("Home");
     <h3>Our top plans</h3>
     <p>Our top plans are:</p>
     <ul>
-        <li>Maths</li>
-        <li>English</li>
-        <li>Science</li>
-        <li>History</li>
-        <li>Geography</li>
-        <li>French</li>
-        <li>Spanish</li>
-        <li>German</li>
-        <li>Italian</li>
-        <li>Chinese</li>
+        <li>Maths</li> <img class="maths_revision" src="maths.jpg">
+
+        <li>English</li> <img class="english_revision" src="english.jpg">
+
+        <li>Science</li>  <img class="science_revision" src="science.jpg">
+
+        <li>History</li> <img class="history_revision" src="history.webp">
+
+        <li>Geography</li> <img class="geography_revision" src="geography.jpg">
+
+        <li>Français</li> <img class="french_revision" src="french.png">
+        <p>bonjour le monde</p> 
+        
+        <li>Español</li> <img class="spanish_revision" src="spanish.jpg">
+        <p>hola mundo</p>
+
+        <li>Deutsch</li> <img class="german_revision" src="german.jpg"> 
+        <p>hallo welt</p>
+
+        <li>普通话</li> <img class="chinese_revision" src="chinese.jpg">
+        <p>你好，世界</p>
+
+        <li>Computing</li> <img class="computing_revision" src="computing.jpg">
+
+        <li>Business</li> <img class="business_revision" src="business.jpeg">
+
+        <li>Art</li> <img class="art_revision" src="art.jpg">
+
+        <li>Music</li> <img class="music_revision" src="music.webp">
+
+        <li>Physical Education</li> <img class="pe_revision" src="pe.jpg">
+
+        <li>Design and Technology</li> <img class="dt_revision" src="dt.jpg">
+
+        <li>Food tech</li> <img class="foodtech_revision" src="foodtech.jpg"> 
+
+        <li>Psychology</li> <img class="psychology_revision" src="psychology.jpg">
+
+        <li>Sociology</li> <img class="sociology_revision" src="sociology.jpg">
+
+        <li>Religious Studies</li> <img class="rs_revision" src="rs.jpg">
+
+        <li>Media Studies</li> <img class="media_revision" src="media.jpg">
+
+        <li>Engineering</li> <img class="engineering_revision" src="engineering.jpg">
+
+        <li>Motor Vehicle</li> <img class="motorvehicle_revision" src="motorvehicle.jpg">
+
     </ul>
     <p>These are our top plans and are the most popular</p>
 </section>
@@ -37,7 +75,13 @@ new part_header("Home");
     <p>Getting started is easy. Just follow these steps:</p>
     <ol>
         <li>Register</li>
+        <li>Log in</li>
         <li>Choose a plan</li>
+        <li>Choose a tutor</li>
+        <li>Choose a subject</li>
+        <li>Choose a time</li>
+        <li>Choose a date</li>
+        <li>Pay or get the free version but miss out on many of the above</li>
         <li>Start learning</li>
     </ol>
 </section>
@@ -87,7 +131,7 @@ new part_header("Home");
             <li>Our plans are rewarding</li>
         </i>
     </ul>
-    <p>These are just some of the reasons to choose us</p>
+    <p>These are just some of a the reasons to choose us</p>
 </section>
 
 <?php include './parts/footer.php'; ?>

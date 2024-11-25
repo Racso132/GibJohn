@@ -22,13 +22,42 @@ new part_header("About Us");
     <p>There will be many more links to help you with your learning and revision.</p>
     <p>There is a variety of subjects and plans to choose from.</p>
     <b>We hope you enjoy your learning and revision.</b>
-    <p><i>Idiot proof</i></p> <!-- Consider rephrasing this to be more professional -->
+    <p><i>Idiot proof</i></p>
+    <p><i>Easy to use</i></p>
+    <p><i>Simple</i></p> 
+    <p><i>Fast</i></p>
+    <p><i>Reliable</i></p>
+    <p><i>Secure</i></p>
+    <p><i>Safe</i></p>
+    <p><i>Efficient</i></p>
+    <img class="img-tutor" src="tutor.jpg">
+    <p><i>Effective</i></p>
+    <p><i>Helpful</i></p>
+    <p><i>Useful</i></p>
+    <p><i>Informative</i></p>
+    <p><i>Interactive</i></p>
+    <p><i>Engaging</i></p>
+    <p><i>Enjoyable</i></p>
+    <p><i>Fun</i></p>
+    <p><i>Exciting</i></p>
+    <p><i>Interesting</i></p>
+    <p><i>Challenging</i></p>
+    <p><i>Stimulating</i></p>
+    <p><i>Thought-provoking</i></p>
+    <p><i>Engrossing</i></p>
+    <p><i>Immersive</i></p>
+    <p><i>Compelling</i></p>
+    <p><i>Entertaining</i></p>
+    <p><i>Enjoyable</i></p>
 </section>
 
 <section>
     <h2>Our Mission</h2>
     <p>Our mission is to help you with your learning and revision needs. We aim to provide you with the best resources and tools to help you succeed in your studies.</p>
     <p>Our team of experts are dedicated to helping you achieve your goals and reach your full potential.</p>
+    <p>We are committed to providing you with the best possible service and support to help you succeed in your studies.</p>
+    <p>Our mission is to help you succeed in your studies and achieve your goals.</p>
+    <p>Our team of experts are here to help you with your learning and revision needs.</p>
     <p>We are committed to providing you with the best possible service and support to help you succeed in your studies.</p>
 </section>
 <?php include './parts/footer.php'; ?>

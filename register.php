@@ -5,14 +5,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Hash the password
         $username = $_POST['username'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
         // Insert user into the database
-        $stmt = $pdo->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
+        $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone) VALUES (:username, :password, :email, :phone)");
         $stmt->bindParam(':username', $username);
         $stmt->bindParam(':password', $password);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':phone', $phone);
 
+        if ($_POST['password'] !== $_POST['confirm_password']) {
+            echo "Passwords do not match";
+            exit();
+        }
 
+        if (empty($username) || empty($email) || empty($password)) {
+            echo "Please fill in all fields";
+            exit();
+        }
+
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            echo "Invalid email";
+            exit();
+        }
+
+       // if (!empty($phone) && !preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $phone)) {
+       //     echo "Invalid phone number";
+       //     exit();
+       // }
 
         $stmt->execute();
 
@@ -21,12 +43,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $e->getMessage();
     }
 }
-
+ 
 include_once './parts/header.php';
 
 new part_header("Register");
 
-
+ 
 ?>
   
 <section>
@@ -38,6 +60,9 @@ new part_header("Register");
 
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
