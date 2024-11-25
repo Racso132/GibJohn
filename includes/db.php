@@ -1,15 +1,13 @@
 <?php
-$dsn = 'mysql:host=localhost:3306;dbname=users';
+$dsn = 'mysql:host=localhost;dbname=users'; // Make sure 'users' is the name of your DB
 $db_username = 'root';
 $db_password = '';
-$pdo = new PDO($dsn, $db_username, $db_password,);
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
- 
-// Dummy PDO object to avoid error
-// $pdo = new stdClass();
-//$pdo->setAttribute = function() {};
-//$pdo->prepare = function() {};
-//$pdo->execute = function() {};
-//$pdo->fetch = function() {};
-//$pdo->fetchAll = function() {};
-//$pdo->lastInsertId = function() {}; 
+
+try {
+    $pdo = new PDO($dsn, $db_username, $db_password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo 'Database connection successful!';
+} catch (PDOException $e) {
+    echo 'Database connection failed: ' . $e->getMessage();
+}
+?>

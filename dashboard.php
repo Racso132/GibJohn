@@ -24,6 +24,7 @@ new part_header("Dashboard");
     <p>This is a protected page. Only logged-in users can access this dashboard.</p>
     <p>Feel free to explore exclusive content or manage your account here.</p>
     <p>For any questions or issues, please <a href="contact.php">contact us</a>.</p>
+    <p><a href="https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=d58slY5gsk-aB_5mmDuZZ6MHKE8_adFGtZDCCHhZznpURDVCSkEySkdMN1hBTUxBNFpENklDVEpZWS4u"></a>.</p>
 </section>
 </div>
 <?php include './parts/footer.php'; ?> 

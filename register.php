@@ -9,46 +9,50 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $phone = $_POST['phone'];
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-        // Insert user into the database
+        // Check if passwords match
+        if ($_POST['password'] !== $_POST['confirm_password']) {
+            echo "Passwords do not match";
+            exit();
+        }
+
+        // Check for missing required fields
+        if (empty($username) || empty($email) || empty($password)) {
+            echo "Please fill in all fields";
+            exit();
+        }
+
+        // Validate email format
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            echo "Invalid email";
+            exit();
+        }
+
+        // Prepare and execute the database insert
         $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone) VALUES (:username, :password, :email, :phone)");
         $stmt->bindParam(':username', $username);
         $stmt->bindParam(':password', $password);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':phone', $phone);
 
-        if ($_POST['password'] !== $_POST['confirm_password']) {
-            echo "Passwords do not match";
+        // Execute the query and check if it was successful
+        if ($stmt->execute()) {
+            // Redirect to login page if the query is successful
+            header('Location: login.php');
             exit();
+        } else {
+            echo "Failed to insert data into the database.";
         }
-
-        if (empty($username) || empty($email) || empty($password)) {
-            echo "Please fill in all fields";
-            exit();
-        }
-
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            echo "Invalid email";
-            exit();
-        }
-
-       // if (!empty($phone) && !preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $phone)) {
-       //     echo "Invalid phone number";
-       //     exit();
-       // }
-
-        $stmt->execute();
-
-        header('Location: login.php');
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
 }
- 
+?>
+
+<?php
 include_once './parts/header.php';
 
 new part_header("Register");
 
- 
 ?>
   
 <section>
@@ -77,5 +81,4 @@ new part_header("Register");
 <?php include './parts/footer.php'; ?>
 
 </body>
-
 </html>
