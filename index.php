@@ -5,6 +5,7 @@ new part_header("Home");
 ?>
 
 <section>
+    <h1>PAGES CAN BE ZOOMED IN FROM THE BROWSER AT 25% - 250%</h1>
     <h2>Welcome to the home page for your online tutoring </h2>
     <p>Here you will find a range of revision plans and subjects to help you with your learning</p>
     <br>Explore the top rated tutors and plans for the best prices</br>
