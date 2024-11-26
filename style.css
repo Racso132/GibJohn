@@ -316,11 +316,6 @@ img.hover {
 }
 
 .learning_together {
-    background-image: url('"C:\xampp\htdocs\GibJohn\learning_together.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -347,11 +342,6 @@ img.hover {
 }
 
 .english_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\english_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -369,11 +359,6 @@ img.hover {
 }
 
 .maths_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\math_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -391,11 +376,6 @@ img.hover {
 }
 
 .science_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\science_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -413,11 +393,6 @@ img.hover {
 }
 
 .history_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\history_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -435,11 +410,6 @@ img.hover {
 }
 
 .geography_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\geography_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -457,11 +427,6 @@ img.hover {
 }
 
 .french_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\french_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -478,11 +443,6 @@ img.hover {
 }
 
 .spanish_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\spanish_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -499,11 +459,6 @@ img.hover {
 }
 
 .german_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\german_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -520,11 +475,6 @@ img.hover {
 }
 
 .chinese_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\chinese_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -541,11 +491,6 @@ img.hover {
 }
 
 .computing_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\computing_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -562,11 +507,6 @@ img.hover {
 }
 
 .business_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\business_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -583,11 +523,6 @@ img.hover {
 }
 
 .art_revision{
-    background-image: url('"C:\xampp\htdocs\GibJohn\art_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -604,11 +539,6 @@ img.hover {
 }
 
 .music_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\music_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -625,11 +555,6 @@ img.hover {
 }
 
 .pe_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\physical_education_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -646,11 +571,6 @@ img.hover {
 }
 
 .dt_revision{
-    background-image: url('"C:\xampp\htdocs\GibJohn\dt_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -667,11 +587,6 @@ img.hover {
 }
 
 .foodtech_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\food_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -688,11 +603,6 @@ img.hover {
 }
 
 .psychology_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\psychology_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -709,11 +619,6 @@ img.hover {
 }
 
 .media_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\media_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -730,11 +635,6 @@ img.hover {
 }
 
 .engineering_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\engineering_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
@@ -751,11 +651,6 @@ img.hover {
 }
 
 .motorvehicle_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\motorvehicle_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     width: 10% !important;
     height: auto !important;
     filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
