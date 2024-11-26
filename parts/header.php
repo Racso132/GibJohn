@@ -1,5 +1,6 @@
 <?php
 
+
 class part_header {
     public $page_title = "GibJohn";
 
@@ -12,6 +13,7 @@ class part_header {
         ?>
         <!DOCTYPE html>
         <html lang="en">
+
   
         <head>
             <meta charset="UTF-8">
