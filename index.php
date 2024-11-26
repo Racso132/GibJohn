@@ -34,7 +34,7 @@ new part_header("Home");
         <li>Español</li> <img class="spanish_revision" src="spanish.jpg">
         <p>hola mundo</p>
 
-        <li>Deutsch</li> <img class="german_revision" src="german.jpg"> 
+        <li>Deutsch</li> <img class="german_revision" src="german.jpg">  
         <p>hallo welt</p>
 
         <li>普通话</li> <img class="chinese_revision" src="chinese.jpg">
