@@ -56,10 +56,6 @@ new part_header("Home");
 
         <li>Psychology</li> <img class="psychology_revision" src="psychology.jpg">
 
-        <li>Sociology</li> <img class="sociology_revision" src="sociology.jpg">
-
-        <li>Religious Studies</li> <img class="rs_revision" src="rs.jpg">
-
         <li>Media Studies</li> <img class="media_revision" src="media.jpg">
 
         <li>Engineering</li> <img class="engineering_revision" src="engineering.jpg">

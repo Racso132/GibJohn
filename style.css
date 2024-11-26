@@ -712,48 +712,6 @@ img.hover {
     box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
 }
 
-.sociology_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\sociology_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.sociology_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.rs_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\religious_studies_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.rs_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
 .media_revision {
     background-image: url('"C:\xampp\htdocs\GibJohn\media_revision.png"');
     background-size: cover;
