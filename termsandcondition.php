@@ -23,6 +23,7 @@ new part_header("Terms and Conditions");
     <p>do not share your bank details</p>
     <p>do not share your card details</p>
     <p>do not sell or share or disclose information from this website that cannot be viewed without logging in or paying</p>
+    <p>do not share or sell or disclose information from this website that is not intended to be shared</p>
     <p> thank you for reading the terms and conditions</p>
     <p>enjoy the website</p>
     <p>thank you</p>

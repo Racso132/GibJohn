@@ -74,6 +74,8 @@ new part_header("Register");
             <label for="phone">Phone: (not required)</label>
             <input type="text" id="phone" name="phone">
 
+    
+
             <input type="submit" value="Register">
         </form>
     </div>
