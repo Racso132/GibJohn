@@ -15,6 +15,7 @@ new part_header("packages");
         <p>Price: Free</p> 
         <form action="purchase.php" method="get">
             <input type="hidden" name="package" value="free">
+            <input type="hidden" name="price" value="Free">
             <button type="submit" class="button">Get Free Package</button>
         </form>
     </div>
@@ -24,6 +25,7 @@ new part_header("packages");
         <p>Price: £12.99</p>
         <form action="purchase.php" method="get">
             <input type="hidden" name="package" value="paid">
+            <input type="hidden" name="price" value="£12.99">
             <button type="submit" class="button">Buy Paid Package</button>
         </form>
     </div>
