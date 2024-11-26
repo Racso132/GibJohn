@@ -21,10 +21,6 @@ header {
     text-align: center;
     font-size: 25px;
     width: 100%;
-    border-bottom: 20px solid #0300a0;
-    border-top: 20px solid #0300a0;
-    border-left: 20px solid #0300a0;
-    border-right: 20px solid #0300a0;
 }
 
 header > h1, header > h2 {
@@ -53,7 +49,6 @@ nav a:hover {
 
 section {
     background-color: #ffffff;
-    border-radius: 5px;
 }
 
 h1 {
@@ -69,7 +64,6 @@ h2, h3, h4, h5, h6 {
 p {
     color: #000000;
     font-size: 15px;
-    border: 0;
 }
 
 form {
@@ -114,7 +108,6 @@ footer {
     color: #000000;
     font-size: 15px;
     width: 100%;
-    border-top: 2px solid #0300a0;
 }
 
 a:link, a:visited {
@@ -180,7 +173,6 @@ b {
 li, ul, ol {
     color: #000000;
     font-size: 20px;
-    border: 0;
 }
 
 .package {
@@ -203,7 +195,7 @@ li, ul, ol {
     background-color: #007BFF;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    -radius: 5px;
     font-size: 15px;
     cursor: pointer;
 }
