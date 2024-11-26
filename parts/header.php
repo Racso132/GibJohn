@@ -35,8 +35,8 @@ class part_header {
                     <a href="updates.php">Updates</a>
 
                     <?php if (isset($_SESSION['user']['id'])): ?>
-                        <a href="packages.php">Packages</a>
                         <a href="dashboard.php">Dashboard</a>
+                        <a href="packages.php">Packages</a>
                         <a href="logout.php">Logout</a>
                         <a href="profile.php">Profile</a>
                     <?php else: ?>
