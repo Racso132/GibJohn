@@ -60,4 +60,32 @@ new part_header("About Us");
     <p>Our team of experts are here to help you with your learning and revision needs.</p>
     <p>We are committed to providing you with the best possible service and support to help you succeed in your studies.</p>
 </section>
+
+<section>
+    <h2>Our Vision</h2>
+    <p>Our vision is to be the leading provider of online learning and revision resources.</p>
+    <p>We aim to provide you with the best resources and tools to help you succeed in your studies.</p>
+    <p>Our team of experts are dedicated to helping you achieve your goals and reach your full potential.</p>
+    <p>We are committed to providing you with
+</section>
+
+<section>
+    <h2>Our Values</h2>
+    <p>Our values are:</p>
+    <ul>
+        <li>Excellence</li>
+        <li>Integrity</li>
+        <li>Innovation</li>
+        <li>Respect</li>
+        <li>Teamwork</li>
+        <li>Customer Focus</li>
+        <li>Continuous Improvement</li>
+        <li>Accountability</
+    </ul>
+
+</section>
+
+<section>
+<h1>Gamification<h1>
+<br>One of the key features of gamification is the use of points and badges. Students earn points for completing various activities, such as completing lessons, quizzes, or finishing videos. These points can then be used to unlock rewards or badges, which serve as a visual representation of their achievements.
 <?php include './parts/footer.php'; ?>
