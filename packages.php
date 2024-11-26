@@ -1,11 +1,10 @@
-
 <?php
 
 // Include the header part of the page
 include_once './parts/header.php';
 
 // Create a new instance of the part_header class
-new part_header("Contact Us");
+new part_header("packages");
 ?>
 
 
@@ -14,16 +13,21 @@ new part_header("Contact Us");
         <h2>Free Package</h2>
         <p>Access to basic revision materials.</p>
         <p>Price: Free</p> 
-        <a href="purchase.php?package=free" class="button">Get Free Package</a> <!-- Link to purchase the free package -->
+        <form action="purchase.php" method="get">
+            <input type="hidden" name="package" value="free">
+            <button type="submit" class="button">Get Free Package</button>
+        </form>
     </div>
     <div class="package">
         <h2>Paid Package</h2>
         <p>Access to premium revision materials.</p>
         <p>Price: £12.99</p>
-        <a href="purchase.php?package=paid" class="button">Buy Paid Package</a> <!-- Link to purchase the paid package -->
-    </div> 
+        <form action="purchase.php" method="get">
+            <input type="hidden" name="package" value="paid">
+            <button type="submit" class="button">Buy Paid Package</button>
+        </form>
+    </div>
 
-    
- 
 
-  
+
+
