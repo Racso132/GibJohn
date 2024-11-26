@@ -53,6 +53,12 @@ new part_header("Login");
             <label for="phone">Phone:</label>
             <input type="tel" id="phone" name="phone">
 
+            <label for="role">Login as:</label>
+            <select id="role" name="role" required>
+                <option value="student">Student</option>
+                <option value="tutor">Tutor</option>
+            </select>
+
             <input type="submit" value="Login">
         </form>
     </div>

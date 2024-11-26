@@ -74,7 +74,11 @@ new part_header("Register");
             <label for="phone">Phone: (not required)</label>
             <input type="text" id="phone" name="phone">
 
-    
+            <label for="role">Register as:</label>
+            <select id="role" name="role" required>
+                <option value="student">Student</option>
+                <option value="tutor">Tutor</option>
+            </select>
 
             <input type="submit" value="Register">
         </form>
