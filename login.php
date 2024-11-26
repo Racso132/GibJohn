@@ -8,6 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Retrieve the username and password from the POST request
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+        $EMAIL = email_hash($_POST['email'], EMAIL_DEFAULT);
 
         // Prepare the SQL statement for inserting the user into the database
         $stmt = $pdo->prepare("SELECT * FROM users WHERE username=?");
