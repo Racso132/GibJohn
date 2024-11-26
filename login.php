@@ -20,6 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['user']['username'] = $usr['username']; 
             $_SESSION['user']['email'] = $usr['email'];
             $_SESSION['user']['phone'] = $usr['phone'];
+            $_SESSION['user']['role'] = $usr['role'];
  
             header('Location: dashboard.php');
         } else {

@@ -7,7 +7,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST['username'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
+        $role = $_POST['role'];
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+
 
         // Check if passwords match
         if ($_POST['password'] !== $_POST['confirm_password']) {
@@ -28,11 +30,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
  
         // Prepare and execute the database insert
-        $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone) VALUES (:username, :password, :email, :phone)");
+        $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone, role) VALUES (:username, :password, :email, :phone, :role)");
         $stmt->bindParam(':username', $username);
         $stmt->bindParam(':password', $password);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':phone', $phone);
+        $stmt->bindParam(':role', $role);
 
         // Execute the query and check if it was successful
         if ($stmt->execute()) {
