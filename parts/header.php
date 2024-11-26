@@ -22,8 +22,8 @@ class part_header {
 
         <body>
             <header>
-                <h1>GIBJOHN</h1>
-                <h2> Online tutoring </h2>
+                <h1><?php echo $this->page_title; ?></h1>
+
                 <nav>
                     <a href="index.php">Home</a>
                     <a href="about.php">About</a>
