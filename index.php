@@ -6,6 +6,7 @@ new part_header("Home");
 
 <section>
     <h2>Welcome to the home page for your online tutoring </h2>
+    <p>Here you will find a range of revision plans and subjects to help you with your learning</p>
     <br>Explore the top rated tutors and plans for the best prices</br>
     In this website youll be able to look at a variety of revision plans and subjects for your needs.</br>
     also you should find some helpful revision plans and subject timetable plans these will help keep your mind working and still give you time to enjoy learning.</br>
