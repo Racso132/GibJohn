@@ -15,6 +15,8 @@ new part_header("Home");
     We have a team of expert tutors who are here to help you with your learning.</br>
     We offer a range of plans to suit your needs and budget.</br>
 </section>
+
+
   
 <section>
     <h3>Our top plans</h3>
@@ -93,6 +95,33 @@ new part_header("Home");
     </ul>
     <p>These are our top tutors and are the most popular</p>
 </section>
+
+<section>
+    <h3>Our top subjects</h3>
+    <p>Our top subjects are:</p>
+    <ul>
+        <li>Maths</li>
+        <li>English</li>
+        <li>Science</li>
+        <li>History</li>
+        <li>Geography</li>
+        <li>Français</li>
+        <li>Español</li>
+        <li>Deutsch</li>
+        <li>普通话</li>
+        <li>Computing</li>
+        <li>Business</li>
+        <li>Art</li>
+        <li>Music</li>
+        <li>Physical Education</li>
+        <li>Design and Technology</li>
+        <li>Food tech</li>
+        <li>Psychology</li>
+        <li>Media Studies</li>
+        <li>Engineering</li>
+        <li>Motor Vehicle</li>
+    </ul>
+    <p>These are our top subjects and are the most popular</p>
 
 <section>
     <h3>Why choose us?</h3>
