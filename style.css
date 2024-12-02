@@ -119,51 +119,12 @@ a:hover {
     color: pink;
 }
 
-/*img {                                */
-/*    width: 10%;                                */
-/*    height: 10%;                                */
-/*    margin: auto;                                */
-/*    display: block;                                */
-/*    border-radius: 50%;                                */
-/*    padding: 10px;                                */
-/*    opacity: 1.0;                                */
-/*    filter: alpha(opacity=100);                                */
-/*}                                */
-
-
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
     font-size: 20px;
-}
-
-/*.container img {                          */
-/*    width: 100%;                          */
-/*    height: 100%;                          */
-/*    margin: auto;                          */
-/*    display: block;                          */
-/*    border-radius: 50%;                          */
-/*    padding: 10px;                          */
-/*}                          */
-/*                          */
-/*.jpg {                          */
-/*    width: 10%;                          */
-/*    height: 10%;                          */
-/*    margin: auto;                          */
-/*    display: block;                          */
-/*    border-radius: 50%;                          */
-/*    padding: 10px;                          */
-/*}                          */
-/*                          */
-/*.jpg img {                          */
-/*    width: 100%;                          */
-/*    height: 100%;                          */
-/*    margin: auto;                          */
-/*    display: block;                          */
-/*    border-radius: 50%;                          */
-/*    padding: 10px;                          */
-/*}                          */
+}                         
 
 b {
     color: #0300a0;
