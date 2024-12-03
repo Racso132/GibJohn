@@ -82,7 +82,7 @@ new part_header("About Us");
         <li>Continuous Improvement</li>
         <li>Accountability</
     </ul>
-
+  
 </section>
 
 <section>
