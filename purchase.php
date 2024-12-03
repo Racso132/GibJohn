@@ -32,3 +32,10 @@
         <button type="submit" class="button">Complete Purchase</button>
     </form>
 </section>
+
+<?php
+
+    // Include the footer part of the page
+    include_once './parts/footer.php';
+
+    ?>

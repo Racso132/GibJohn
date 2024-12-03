@@ -22,3 +22,10 @@ new part_header("Receipt");
     <p>Price: <?php echo htmlspecialchars($price); ?></p>
     <p>A confirmation email has been sent to <?php echo htmlspecialchars($email); ?>.</p>
 </section>
+
+<?php
+
+// Include the footer part of the page
+include_once './parts/footer.php';
+
+?>
