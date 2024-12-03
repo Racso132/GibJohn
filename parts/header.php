@@ -17,7 +17,7 @@ class part_header {
   
         <head>
             <meta charset="UTF-8">
-            <img class="GibJohn_logo4real" src="GibJohn_logo4real.png">
+
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title><?php echo $this->page_title; ?></title>
             <link rel="stylesheet" href="style.css">
@@ -25,9 +25,9 @@ class part_header {
 
         <body>
             <header>
-                <h1>GIBJOHN</h1>
                 <h2> Online tutoring </h2>
                 <nav>
+                <img class="GibJohn_logo4real" src="GibJohn_logo4real.png">
                     <a href="index.php">Home</a>
                     <a href="about.php">About</a>
                     <a href="contact.php">Contact</a>
