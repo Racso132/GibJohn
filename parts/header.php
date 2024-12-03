@@ -27,6 +27,7 @@ class part_header {
                 <h1><?php echo $this->page_title; ?></h1>
 
                 <nav>
+                    <img class="GibJohn_logo4real" src="GibJohn_logo4real.png">
                     <a href="index.php">Home</a>
                     <a href="about.php">About</a>
                     <a href="contact.php">Contact</a>
