@@ -7,48 +7,55 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $username = $_POST['username'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
+        $role = $_POST['role'];
         $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-        // Insert user into the database
-        $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone) VALUES (:username, :password, :email, :phone)");
-        $stmt->bindParam(':username', $username);
-        $stmt->bindParam(':password', $password);
-        $stmt->bindParam(':email', $email);
-        $stmt->bindParam(':phone', $phone);
 
+        // Check if passwords match
         if ($_POST['password'] !== $_POST['confirm_password']) {
             echo "Passwords do not match";
             exit();
         }
 
+        // Check for missing required fields
         if (empty($username) || empty($email) || empty($password)) {
             echo "Please fill in all fields";
             exit();
         }
 
+        // Validate email format
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             echo "Invalid email";
             exit();
         }
+ 
+        // Prepare and execute the database insert
+        $stmt = $pdo->prepare("INSERT INTO users (username, password, email, phone, role) VALUES (:username, :password, :email, :phone, :role)");
+        $stmt->bindParam(':username', $username);
+        $stmt->bindParam(':password', $password);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':phone', $phone);
+        $stmt->bindParam(':role', $role);
 
-       // if (!empty($phone) && !preg_match("/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/", $phone)) {
-       //     echo "Invalid phone number";
-       //     exit();
-       // }
-
-        $stmt->execute();
-
-        header('Location: login.php');
+        // Execute the query and check if it was successful
+        if ($stmt->execute()) {
+            // Redirect to login page if the query is successful
+            header('Location: login.php');
+            exit();
+        } else {
+            echo "Failed to insert data into the database.";
+        }
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
     }
 }
- 
+?>
+
+<?php
 include_once './parts/header.php';
 
 new part_header("Register");
 
- 
 ?>
   
 <section>
@@ -70,6 +77,12 @@ new part_header("Register");
             <label for="phone">Phone: (not required)</label>
             <input type="text" id="phone" name="phone">
 
+            <label for="role">Register as:</label>
+            <select id="role" name="role" required>
+                <option value="student">Student</option>
+                <option value="tutor">Tutor</option>
+            </select>
+
             <input type="submit" value="Register">
         </form>
     </div>
@@ -77,5 +90,4 @@ new part_header("Register");
 <?php include './parts/footer.php'; ?>
 
 </body>
-
 </html>

@@ -5,7 +5,9 @@ new part_header("Home");
 ?>
 
 <section>
+    <h1>PAGES CAN BE ZOOMED IN FROM THE BROWSER AT 25% - 250% IT CAN GO HIGHER BUT TEXT WILL START TO GO OFF THE SCREEN AND YOULL RECIEVE THE SCROLL BAR OF LEFT AND RIGHT</h1>
     <h2>Welcome to the home page for your online tutoring </h2>
+    <p>Here you will find a range of revision plans and subjects to help you with your learning</p>
     <br>Explore the top rated tutors and plans for the best prices</br>
     In this website youll be able to look at a variety of revision plans and subjects for your needs.</br>
     also you should find some helpful revision plans and subject timetable plans these will help keep your mind working and still give you time to enjoy learning.</br>
@@ -13,7 +15,9 @@ new part_header("Home");
     We have a team of expert tutors who are here to help you with your learning.</br>
     We offer a range of plans to suit your needs and budget.</br>
 </section>
- 
+
+
+  
 <section>
     <h3>Our top plans</h3>
     <p>Our top plans are:</p>
@@ -34,7 +38,7 @@ new part_header("Home");
         <li>Español</li> <img class="spanish_revision" src="spanish.jpg">
         <p>hola mundo</p>
 
-        <li>Deutsch</li> <img class="german_revision" src="german.jpg"> 
+        <li>Deutsch</li> <img class="german_revision" src="german.jpg">  
         <p>hallo welt</p>
 
         <li>普通话</li> <img class="chinese_revision" src="chinese.jpg">
@@ -55,10 +59,6 @@ new part_header("Home");
         <li>Food tech</li> <img class="foodtech_revision" src="foodtech.jpg"> 
 
         <li>Psychology</li> <img class="psychology_revision" src="psychology.jpg">
-
-        <li>Sociology</li> <img class="sociology_revision" src="sociology.jpg">
-
-        <li>Religious Studies</li> <img class="rs_revision" src="rs.jpg">
 
         <li>Media Studies</li> <img class="media_revision" src="media.jpg">
 
@@ -95,6 +95,33 @@ new part_header("Home");
     </ul>
     <p>These are our top tutors and are the most popular</p>
 </section>
+
+<section>
+    <h3>Our top subjects</h3>
+    <p>Our top subjects are:</p>
+    <ul>
+        <li>Maths</li>
+        <li>English</li>
+        <li>Science</li>
+        <li>History</li>
+        <li>Geography</li>
+        <li>Français</li>
+        <li>Español</li>
+        <li>Deutsch</li>
+        <li>普通话</li>
+        <li>Computing</li>
+        <li>Business</li>
+        <li>Art</li>
+        <li>Music</li>
+        <li>Physical Education</li>
+        <li>Design and Technology</li>
+        <li>Food tech</li>
+        <li>Psychology</li>
+        <li>Media Studies</li>
+        <li>Engineering</li>
+        <li>Motor Vehicle</li>
+    </ul>
+    <p>These are our top subjects and are the most popular</p>
 
 <section>
     <h3>Why choose us?</h3>

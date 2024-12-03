@@ -1,814 +1,640 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
+body {                                                                   
+    font-family: Arial, Helvetica, sans-serif;                                                                   
+    margin: 0;                                                                   
+    padding: 0;                                                                   
+    background-color: #000000;                                                                   
+}                                                                   
+                                                                   
+header, nav, section, article, aside, footer {                                                                   
+    display: block;                                                                   
+}                                                                   
+                                                                   
+title {                                                                   
+    color: #ffffff;                                                                   
+    font-size: 30px;                                                                   
+}                                                                   
+                                                                   
+header {                                                                   
+    background-color: #34bfc4;                                                                   
+    color: #ffffff;                                                                   
+    padding: 10px 0;                                                                   
+    text-align: center;                                                                   
+    font-size: 25px;                                                                   
+    width: 100%;                                                                   
+}                                                                   
+                                                                   
+header > h1, header > h2 {                                                                   
+    color: #ffffff;                                                                    
+    font-size: 30px;                                                                   
+}                                                                   
+                                                                   
+nav {                                                                   
+    text-align: center;                                                                   
+    background-color: #34bfc4;                                                                   
+    color: #000000;                                                                   
+    font-size: 15px;                                                                   
+    width: 100%;                                                                   
+}                                                                   
+                                                                   
+nav a {                                                                   
+    color: #000000;                                                                   
+    text-decoration: none;                                                                   
+    margin: 0 10px;                                                                   
+}                                                                   
+                                                                    
+nav a:hover {                                                                   
+    text-decoration: underline;                                                                   
+    color: #ff0000;                                                                   
+}                                                                   
+                                                                   
+section {                                                                   
+    background-color: #ffffff;                                                                   
+}                                                                   
+                                                                   
+h1 {                                                                   
+    color: #000000;                                                                   
+    font-size: 20px;                                                                   
+}                                                                   
+                                                                   
+h2, h3, h4, h5, h6 {                                                                   
+    color: #000000;                                                                   
+    font-size: 20px;                                                                   
+}                                                                   
+                                                                   
+p {                                                                   
+    color: #000000;                                                                   
+    font-size: 15px;                                                                   
+}                                                                   
+                                                                   
+form {                                                                   
+    display: flex;                                                                   
+    flex-direction: column;                                                                   
+    width: 50%;                                                                   
+    margin: auto;                                                                   
+}                                                                   
+                                                                   
+label {                                                                   
+    margin-top: 15px;                                                                   
+    color: #000000;                                                                   
+}                                                                   
+                                                                   
+input[type="text"], input[type="email"], textarea {                                                                   
+    padding: 10px;                                                                   
+    margin-top: 5px;                                                                   
+    border: 1px solid #000000;                                                                   
+    border-radius: 3px;                                                                   
+    font-size: 15px;                                                                   
+}                                                                   
+                                                                   
+input[type="submit"], input[type="reset"] {                                                                   
+    padding: 10px;                                                                   
+    background-color: #000000;                                                                   
+    color: #f1f500;                                                                   
+    border: none;                                                                   
+    border-radius: 3px;                                                                   
+    cursor: pointer;                                                                   
+    margin-top: 20px;                                                                   
+    font-size: 15px;                                                                   
+}                                                                   
+                                                                   
+input[type="submit"]:hover, input[type="reset"]:hover {                                                                   
+    background-color: #0300a0;                                                                   
+}                                                                   
+                                                                   
+footer {                                                                   
+    text-align: center;                                                                   
+    padding: 10px;                                                                   
+    background-color: #34bfc4;                                                                   
+    color: #000000;                                                                   
+    font-size: 15px;                                                                   
+    width: 100%;                                                                   
+}                                                                   
+                                                                   
+a:link, a:visited {                                                                   
+    color: #000000;                                                                   
+    font-size: 20px;                                                                   
+}                                                                   
+                                                                   
+a:hover {                                                                   
+    color: pink;                                                                   
+}                                                                   
+                                                                   
+.container {                                                                   
+    width: 80%;                                                                   
+    margin: auto;                                                                   
+    overflow: hidden;                                                                   
+    font-size: 20px;                                                                   
+}                                                                                            
+                                                                   
+b {                                                                   
+    color: #0300a0;                                                                   
+    font-size: 20px;                                                                   
+}                                                                   
+                                                                   
+li, ul, ol {                                                                   
+    color: #000000;                                                                   
+    font-size: 20px;                                                                   
+}                                                                   
+                                                                   
+.package {                                                                   
+    border: 1px solid #ccc;                                                                   
+    padding: 20px;                                                                   
+    margin: 20px;                                                                   
+    text-align: center;                                                                   
+    background-color: #34bfc4;                                                                   
+}                                                                   
+                                                                   
+.package h2 {                                                                   
+    color: #000000;                                                                    
+    font-size: 20px;                                                                   
+}                                                                   
+                                                                   
+.button {                                                                   
+    display: inline-block;                                                                   
+    padding: 10px 20px;                                                                   
+    margin-top: 10px;                                                                   
+    background-color: #007BFF;                                                                   
+    color: white;                                                                   
+    text-decoration: none;                                                                   
+    -radius: 5px;                                                                   
+    font-size: 15px;                                                                   
+    cursor: pointer;                                                                   
+}                                                                   
+                                                                   
+.button:hover {                                                                   
+    background-color: #450769;                                                                   
+}                                                                   
+                                                                   
+.dropdown {                                                                   
+    position: relative;                                                                   
+    display: inline-block;                                                                   
+    width: 300px;                                                                   
+    height: 100px;                                                                   
+}                                                                   
+                                                                   
+.dropdown-content {                                                                   
+    display: none;                                                                   
+    position: absolute;                                                                   
+    background-color: #f9f9f9;                                                                   
+    min-width: 700px; /* Increased from 500px to 700px */                                                                   
+    width: 500px;                                                                    
+    height: 300px;                                                                    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);                                                                   
+    z-index: 1;                                                                   
+}                                                                   
+                                                                   
+.dropdown-content a {                                                                   
+    color: black;                                                                   
+    padding: 12px 16px;                                                                   
+    text-decoration: none;                                                                   
+    display: block;                                                                   
+}                                                                   
+                                                                   
+.dropdown-content a:hover {background-color: #f1f1f1}                                                                   
+                                                                   
+.dropdown:hover .dropdown-content {                                                                   
+    display: block;                                                                   
+                                                                       
+}                                                                   
+                                                                   
+.dropdown:hover .dropbtn {                                                                   
+    background-color: #3e8e41;                                                                   
+}                                                                   
+                                                                   
+/* Responsive layout - makes the menu and the right column stack on top of each other */                                                                   
+@media (max-width: 800px) {                                                                   
+    nav, section {                                                                   
+        width: 100%;                                                                   
+    }                                                                   
+}                                                                   
+                                                                   
+.blur {                                                                   
+    filter: blur(4px);                                                                   
+}                                                                   
+                                                                   
+.brightness {                                                                   
+    filter: brightness(250%);                                                                   
+}                                                                   
+                                                                   
+.contrast {                                                                   
+    filter: contrast(180%);                                                                   
+}                                                                   
+                                                                   
+.grayscale {                                                                   
+    filter: grayscale(100%);                                                                   
+}                                                                   
+                                                                   
+.huerotate {                                                                   
+    filter: hue-rotate(180deg);                                                                   
+}                                                                   
+                                                                   
+.invert {                                                                   
+    filter: invert(100%);                                                                   
+}                                                                   
+                                                                   
+.opacity {                                                                   
+    filter: opacity(50%);                                                                   
+}                                                                   
+                                                                   
+.saturate {                                                                   
+    filter: saturate(7);                                                                   
+}                                                                   
+                                                                   
+.sepia {                                                                   
+    filter: sepia(100%);                                                                   
+}                                                                   
+                                                                   
+.shadow {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(4, 6, 141));                                                                   
+    box-shadow: 0 0 2px 1px;                                                                   
+}                                                                   
+                                                                   
+img.hover {                                                                   
+    filter: drop-shadow(8px 8px 10px green);                                                                   
+}                                                                   
+                                                                   
+.img-responsive {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(29, 192, 29)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(116, 26, 78, 0.5) !important;                                                                   
+    margin: auto;                                                                                            
+    display: block;                                                                                             
+    border-radius: 50%;                                                                                             
+    padding: 10px;                                                                   
+}                                                                   
+                                                                   
+.img-tutor {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+    margin: auto;                                                                                            
+    display: block;                                                                                             
+    border-radius: 50%;                                                                                             
+    padding: 10px;                                                                   
+                                                                   
+}                                                                   
+                                                                   
+.learning_together {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+    margin: auto;                                                                                            
+    display: block;                                                                                             
+    border-radius: 50%;                                                                                             
+    padding: 10px;                                                                   
+}                                                                   
+                                                                   
+.img-responsive:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(29, 192, 29)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(116, 26, 78, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.img-tutor:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.learning_together:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.english_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+                                                                   
+}                                                                   
+                                                                   
+.english_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.maths_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+                                                                   
+}                                                                   
+                                                                   
+.math_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.science_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+                                                                   
+}                                                                   
+                                                                   
+.science_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.history_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+                                                                   
+}                                                                   
+                                                                   
+.history_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.geography_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+                                                                   
+}                                                                   
+                                                                   
+.geography_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.french_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.french_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.spanish_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.spanish_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.german_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.german_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.chinese_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.chinese_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.computing_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.computing_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.business_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.business_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.art_revision{                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.art_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.music_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.music_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.pe_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.pe_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.dt_revision{                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.dt_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.foodtech_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.foodtech_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.psychology_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.psychology_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.media_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.media_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.engineering_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.engineering_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+                                                                   
+.motorvehicle_revision {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
+}                                                                   
+                                                                   
+.motorvehicle_revision:hover {                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                   
+}                                                                   
+
+.GibJohn_logo4real {                                                                   
+    width: 10% !important;                                                                   
+    height: auto !important;                                                                   
+    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;                                                                   
+    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;                                                                           
+    display: block;                                                                                             
+    border-radius: 25%;                                                                                             
+    padding: 10px;                                                                   
+    position: right;                                                                   
 }
-
-header {
-    background-color: #34bfc4;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 15px;
-    width: 100%;
-    border-bottom: 2px solid #0300a0;
-}
-
-header > h1, header > h2 {
-    color: #ffffff; 
-    font-size: 15px;
-}
-
-nav {
-    text-align: center;
-    padding: 10px;
-    background-color: #34bfc4;
-    color: #000000;
-    font-size: 15px;
-    width: 100%;
-}
-
-nav a {
-    color: #000000;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    color: #ff0000;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #ffffff;
-    border-radius: 5px;
-}
-
-h1 {
-    color: #000000;
-    font-size: 20px;
-}
-
-h2, h3, h4, h5, h6 {
-    color: #000000;
-    font-size: 20px;
-}
-
-p {
-    color: #000000;
-    font-size: 15px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-}
-
-label {
-    margin-top: 15px;
-    color: #000000;
-}
-
-input[type="text"], input[type="email"], textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    font-size: 15px;
-}
-
-input[type="submit"], input[type="reset"] {
-    padding: 10px;
-    background-color: #000000;
-    color: #f1f500;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: 15px;
-}
-
-input[type="submit"]:hover, input[type="reset"]:hover {
-    background-color: #0300a0;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #34bfc4;
-    color: #000000;
-    font-size: 15px;
-    width: 100%;
-    border-top: 2px solid #0300a0;
-}
-
-a:link, a:visited {
-    color: #000000;
-    font-size: 20px;
-}
-
-a:hover {
-    color: pink;
-}
-
-/*img {                                */
-/*    width: 10%;                                */
-/*    height: 10%;                                */
-/*    margin: auto;                                */
-/*    display: block;                                */
-/*    border-radius: 50%;                                */
-/*    padding: 10px;                                */
-/*    opacity: 1.0;                                */
-/*    filter: alpha(opacity=100);                                */
-/*}                                */
-
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    font-size: 20px;
-}
-
-/*.container img {                          */
-/*    width: 100%;                          */
-/*    height: 100%;                          */
-/*    margin: auto;                          */
-/*    display: block;                          */
-/*    border-radius: 50%;                          */
-/*    padding: 10px;                          */
-/*}                          */
-/*                          */
-/*.jpg {                          */
-/*    width: 10%;                          */
-/*    height: 10%;                          */
-/*    margin: auto;                          */
-/*    display: block;                          */
-/*    border-radius: 50%;                          */
-/*    padding: 10px;                          */
-/*}                          */
-/*                          */
-/*.jpg img {                          */
-/*    width: 100%;                          */
-/*    height: 100%;                          */
-/*    margin: auto;                          */
-/*    display: block;                          */
-/*    border-radius: 50%;                          */
-/*    padding: 10px;                          */
-/*}                          */
-
-b {
-    color: #0300a0;
-    font-size: 20px;
-}
-
-li, ul, ol {
-    color: #000000;
-    font-size: 20px;
-}
-
-.package {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-    background-color: #34bfc4;
-}
-
-.package h2 {
-    color: #000000; 
-    font-size: 20px;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-top: 10px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #450769;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
-/* Responsive layout - makes the menu and the right column stack on top of each other */
-@media (max-width: 800px) {
-    nav, section {
-        width: 100%;
-    }
-}
-
-.blur {
-    filter: blur(4px);
-}
-
-.brightness {
-    filter: brightness(250%);
-}
-
-.contrast {
-    filter: contrast(180%);
-}
-
-.grayscale {
-    filter: grayscale(100%);
-}
-
-.huerotate {
-    filter: hue-rotate(180deg);
-}
-
-.invert {
-    filter: invert(100%);
-}
-
-.opacity {
-    filter: opacity(50%);
-}
-
-.saturate {
-    filter: saturate(7);
-}
-
-.sepia {
-    filter: sepia(100%);
-}
-
-.shadow {
-    filter: drop-shadow(8px 8px 10px rgb(4, 6, 141));
-}
-
-img.hover {
-    filter: drop-shadow(8px 8px 10px green);
-}
-
-.img-responsive {
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(29, 192, 29)) !important;
-    box-shadow: 0 0 2px 1px rgba(116, 26, 78, 0.5) !important;
-    margin: auto;                         
-    display: block;                          
-    border-radius: 50%;                          
-    padding: 10px;
-}
-
-.img-tutor {
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-    margin: auto;                         
-    display: block;                          
-    border-radius: 50%;                          
-    padding: 10px;
-
-}
-
-.learning_together {
-    background-image: url('"C:\xampp\htdocs\GibJohn\learning_together.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-    margin: auto;                         
-    display: block;                          
-    border-radius: 50%;                          
-    padding: 10px;
-}
-
-.img-responsive:hover {
-    filter: drop-shadow(8px 8px 10px rgb(29, 192, 29)) !important;
-    box-shadow: 0 0 2px 1px rgba(116, 26, 78, 0.5) !important;
-}
-
-.img-tutor:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.learning_together:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.english_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\english_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-
-}
-
-.english_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.maths_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\math_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-
-}
-
-.math_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.science_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\science_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-
-}
-
-.science_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.history_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\history_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-
-}
-
-.history_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.geography_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\geography_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-
-}
-
-.geography_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.french_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\french_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.french_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.spanish_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\spanish_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.spanish_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.german_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\german_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.german_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.chinese_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\chinese_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.chinese_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.computing_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\computing_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.computing_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.business_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\business_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.business_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.art_revision{
-    background-image: url('"C:\xampp\htdocs\GibJohn\art_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.art_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.music_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\music_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.music_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.pe_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\physical_education_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.pe_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.dt_revision{
-    background-image: url('"C:\xampp\htdocs\GibJohn\dt_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.dt_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.foodtech_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\food_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.foodtech_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.psychology_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\psychology_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.psychology_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.sociology_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\sociology_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.sociology_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.rs_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\religious_studies_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.rs_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.media_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\media_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.media_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.engineering_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\engineering_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.engineering_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-.motorvehicle_revision {
-    background-image: url('"C:\xampp\htdocs\GibJohn\motorvehicle_revision.png"');
-    background-size: cover;
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 10% !important;
-    height: auto !important;
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;        
-    display: block;                          
-    border-radius: 25%;                          
-    padding: 10px;
-    position: right;
-}
-
-.motorvehicle_revision:hover {
-    filter: drop-shadow(8px 8px 10px rgb(38, 15, 172)) !important;
-    box-shadow: 0 0 2px 1px rgba(235, 5, 5, 0.5) !important;
-}
-
-
- 
-
-
-
-
-
-
-
 

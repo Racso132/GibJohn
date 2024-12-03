@@ -1,5 +1,6 @@
 <?php
 
+
 class part_header {
     public $page_title = "GibJohn";
 
@@ -12,6 +13,7 @@ class part_header {
         ?>
         <!DOCTYPE html>
         <html lang="en">
+
   
         <head>
             <meta charset="UTF-8">
@@ -22,8 +24,9 @@ class part_header {
 
         <body>
             <header>
-                <h1>GIBJOHN</h1>
-                <h2> Online tutoring </h2>
+                <h1><?php echo $this->page_title; ?></h1>
+
+                <img class="GibJohn_logo4real" src="GibJohn_logo4real.png">
                 <nav>
                     <a href="index.php">Home</a>
                     <a href="about.php">About</a>
@@ -33,8 +36,8 @@ class part_header {
                     <a href="updates.php">Updates</a>
 
                     <?php if (isset($_SESSION['user']['id'])): ?>
-                        <a href="packages.php">Packages</a>
                         <a href="dashboard.php">Dashboard</a>
+                        <a href="packages.php">Packages</a>
                         <a href="logout.php">Logout</a>
                         <a href="profile.php">Profile</a>
                     <?php else: ?>

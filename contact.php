@@ -5,7 +5,7 @@ include_once './parts/header.php';
 
 // Create a new instance of the part_header class
 new part_header("Contact Us");
-?> 
+?>  
 <section>
     <h2>Contact Us</h2>
     <div>
