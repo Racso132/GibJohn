@@ -25,17 +25,15 @@ class part_header {
 
         <body>
             <header>
+            <img class="GibJohn_logo9" src="GibJohn_logo9.webp">
                 <h2> Online tutoring </h2>
                 <nav>
-                    <img class="GibJohn_logo4.webp" src="GibJohn_logo4.webp">
                     <a href="index.php">Home</a>
                     <a href="about.php">About</a>
                     <a href="contact.php">Contact</a>
                     <a href="termsandcondition.php">terms and condition</a>
                     <a href="accessibility.php">Accessibility</a>
                     <a href="updates.php">Updates</a>
-                    <img class="GibJohn_logo8.webp" src="GibJohn_logo8.webp">
-
                     <?php if (isset($_SESSION['user']['id'])): ?>
                         <a href="dashboard.php">Dashboard</a>
                         <a href="packages.php">Packages</a>
