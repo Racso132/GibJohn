@@ -27,7 +27,7 @@ class part_header {
             <header>
                 <h2> Online tutoring </h2>
                 <nav>
-                    <img class="GibJohn_logo4real" src="GibJohn_logo4real.png">
+                    <img class="GibJohn_logo4" src="GibJohn_logo4.png">
                     <a href="index.php">Home</a>
                     <a href="about.php">About</a>
                     <a href="contact.php">Contact</a>
