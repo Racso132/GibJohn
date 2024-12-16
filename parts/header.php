@@ -34,6 +34,7 @@ class part_header {
                     <a href="termsandcondition.php">terms and condition</a>
                     <a href="accessibility.php">Accessibility</a>
                     <a href="updates.php">Updates</a>
+                    <img class="GibJohn_logo8.webp" src="GibJohn_logo8.webp">
 
                     <?php if (isset($_SESSION['user']['id'])): ?>
                         <a href="dashboard.php">Dashboard</a>
