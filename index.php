@@ -190,11 +190,7 @@ new part_header("Home");
         <li>Visa</li>
         <li>MasterCard</li>
         <li>American Express</li>
-        <li>Discover</li>
         <li>Apple Pay</li>
-        <li>Google Pay</li>
-        <li>Shopify Pay</li>
-        <li>Amazon Pay</li>
         <li>PayPal Credit</li>
     </ul>
     <p>These are our top payment options and are the most popular</p>
