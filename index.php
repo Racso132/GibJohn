@@ -196,7 +196,7 @@ new part_header("Home");
     <p>These are our top payment options and are the most popular</p>
 </section>
 
-<section>
+<section> 
     <h3>Our top free plans</h3>
     <p>Our top free plans are:</p>
     <ul>

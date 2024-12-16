@@ -25,7 +25,7 @@ new part_header("About Us");
     <p><i>Idiot proof</i></p>
     <p><i>Easy to use</i></p>
     <p><i>Simple</i></p>  
-    <p><i>Fast</i></p>
+    <p><i>Fast</i></p> 
     <p><i>Reliable</i></p>
     <p><i>Secure</i></p>
     <p><i>Safe</i></p>

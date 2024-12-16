@@ -24,3 +24,4 @@ new part_header("Contact Us");
     </div>
 </section> <!-- End of the contact section -->
 <?php include './parts/footer.php'; ?> <!-- Include the footer part of the page -->
+ 

@@ -11,7 +11,7 @@ class part_header {
 
     public function render() {
         ?>
-        <!DOCTYPE html>
+        <!DOCTYPE html> 
         <html lang="en">
 
   

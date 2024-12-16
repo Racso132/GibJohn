@@ -38,5 +38,5 @@
         }
     </script>
 </body>
-</html>
+</html> 
 <?php
