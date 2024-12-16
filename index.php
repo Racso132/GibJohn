@@ -5,7 +5,6 @@ new part_header("Home");
 ?>
 
 <section>
-    <h1>PAGES CAN BE ZOOMED IN FROM THE BROWSER AT 25% - 250% IT CAN GO HIGHER BUT TEXT WILL START TO GO OFF THE SCREEN AND YOULL RECIEVE THE SCROLL BAR OF LEFT AND RIGHT</h1>
     <h2>Welcome to the home page for your online tutoring </h2>
     <p>Here you will find a range of revision plans and subjects to help you with your learning</p>
     <br>Explore the top rated tutors and plans for the best prices</br>
@@ -14,9 +13,13 @@ new part_header("Home");
     Our company was founded in 2024 and we have been helping people with their learning ever since.</br>
     We have a team of expert tutors who are here to help you with your learning.</br>
     We offer a range of plans to suit your needs and budget.</br>
+    We offer a range of subjects to suit your needs and interests.</br>
+    We offer a range of times to suit your schedule.</br>
+    We offer a range of dates to suit your availability.</br>
+    We offer a range of prices to suit your budget.</br>
+    We offer a range of payment options to suit your preferences.</br>
+    We offer a range of free plans for those who cannot afford to pay.</br>
 </section>
-
-
   
 <section>
     <h3>Our top plans</h3>
@@ -160,5 +163,83 @@ new part_header("Home");
     </ul>
     <p>These are just some of a the reasons to choose us</p>
 </section>
+
+<section>
+    <h3>Our top prices</h3>
+    <p>Our top prices are:</p>
+    <ul>
+        <li>£10</li>
+        <li>£20</li>
+        <li>£30</li>
+        <li>£40</li>
+        <li>£50</li>
+        <li>£60</li>
+        <li>£70</li>
+        <li>£80</li>
+        <li>£90</li>
+        <li>£100</li>
+    </ul>
+    <p>These are our top prices and are the most popular</p>
+</section>
+
+<section>
+    <h3>Our top payment options</h3>
+    <p>Our top payment options are:</p>
+    <ul>
+        <li>PayPal</li>
+        <li>Visa</li>
+        <li>MasterCard</li>
+        <li>American Express</li>
+        <li>Discover</li>
+        <li>Apple Pay</li>
+        <li>Google Pay</li>
+        <li>Shopify Pay</li>
+        <li>Amazon Pay</li>
+        <li>PayPal Credit</li>
+    </ul>
+    <p>These are our top payment options and are the most popular</p>
+</section>
+
+<section>
+    <h3>Our top free plans</h3>
+    <p>Our top free plans are:</p>
+    <ul>
+        <li>Maths</li>
+        <li>English</li>
+        <li>Science</li>
+        <li>History</li>
+        <li>Geography</li>
+        <li>Français</li>
+        <li>Español</li>
+        <li>Deutsch</li>
+        <li>普通话</li>
+        <li>Computing</li>
+        <li>Business</li>
+        <li>Art</li>
+        <li>Music</li>
+        <li>Physical Education</li>
+        <li>Design and Technology</li>
+        <li>Food tech</li>
+        <li>Psychology</li>
+        <li>Media Studies</li>
+        <li>Engineering</li>
+        <li>Motor Vehicle</li>
+    </ul>
+    <p>These are our top free plans and are the most popular</p>
+</section>
+
+<section>
+    <h3>Our top reviews</h3>
+    <p>Our top reviews are:</p>
+    <ul>
+        <li>5 stars</li>
+        <li>4 stars</li>
+        <li>3 stars</li>
+        <li>2 stars</li>
+        <li>1 star</li>
+    </ul>
+    <p>These are our top reviews and are the most popular</p>
+</section>
+
 
 <?php include './parts/footer.php'; ?>
